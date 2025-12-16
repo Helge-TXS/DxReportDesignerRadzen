@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="25.1.6.0" Ref="1" ControlType="TXS.ReportHub.Infrastructure.DevExpress.TxsReport, TXS.ReportHub.Infrastructure, Version=0.3.0.0, Culture=neutral, PublicKeyToken=null" Name="SustainableCoveredBondReporting" Dpi="254" DisplayName="SustainableCoveredBondReporting" SnapGridSize="31.75" Bookmark="Sustainable Covered Bond Reporting" ReportUnit="TenthsOfAMillimeter" Margins="254, 254, 150, 254" PaperKind="A4" PageWidthF="2100" PageHeightF="2970" Version="25.1" DataSource="#Ref-0" Font="Arial, 8pt" Tag_type="System.String" Tag="{&quot;reportBuilder&quot;:{&quot;name&quot;:&quot;SustainableCoveredBondReporting&quot;,&quot;cubeQueryDtos&quot;:[{&quot;name&quot;:&quot;Land&quot;,&quot;parameter&quot;:null,&quot;measures&quot;:[{&quot;name&quot;:&quot;txs_risiko.sum_restdeckung&quot;,&quot;type&quot;:&quot;number&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.sum_restdeckung&quot;},{&quot;name&quot;:&quot;txs_risiko.pct_restdeckung_land&quot;,&quot;type&quot;:&quot;number&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.pct_restdeckung_land&quot;}],&quot;dimensions&quot;:[{&quot;name&quot;:&quot;txs_risiko.TxsRegion_land_sort_key&quot;,&quot;type&quot;:&quot;string&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.TxsRegion_land_sort_key&quot;},{&quot;name&quot;:&quot;txs_risiko.TxsRegion_land&quot;,&quot;type&quot;:&quot;string&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.TxsRegion_land&quot;}],&quot;timeDimensions&quot;:[],&quot;filters&quot;:[{&quot;and&quot;:[{&quot;member&quot;:&quot;txs_risiko.Stichtag_stichtag&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[],&quot;parameterName&quot;:&quot;Stichtag&quot;},{&quot;member&quot;:&quot;txs_risiko.SusFramework_framework_version_display_name&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[],&quot;parameterName&quot;:&quot;FrameworkVersion&quot;},{&quot;member&quot;:&quot;txs_risiko.TxsGeschaeftskategorie_nachhalt_ausschluss_key&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[],&quot;parameterName&quot;:&quot;PortfolioAusschluss&quot;}]}],&quot;segments&quot;:[{&quot;name&quot;:&quot;txs_risiko.SusNutzungseinheit_ist_framework_compliant&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.SusNutzungseinheit_ist_framework_compliant&quot;},{&quot;name&quot;:&quot;txs_risiko.TxsPool_transaktionsart_hypothekenpfandbrief&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.TxsPool_transaktionsart_hypothekenpfandbrief&quot;},{&quot;name&quot;:&quot;txs_risiko.TxsSlice_ordentliche_deckung_assigned&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.TxsSlice_ordentliche_deckung_assigned&quot;}],&quot;order&quot;:{&quot;txs_risiko.TxsRegion_land_sort_key&quot;:&quot;asc&quot;}},{&quot;name&quot;:&quot;Nachweise&quot;,&quot;parameter&quot;:null,&quot;measures&quot;:[{&quot;name&quot;:&quot;txs_risiko.sum_restdeckung&quot;,&quot;type&quot;:&quot;number&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.sum_restdeckung&quot;}],&quot;dimensions&quot;:[{&quot;name&quot;:&quot;txs_risiko.SusNachweis_proof_type&quot;,&quot;type&quot;:&quot;string&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.SusNachweis_proof_type&quot;},{&quot;name&quot;:&quot;txs_risiko.SusNachweis_proof_subtype&quot;,&quot;type&quot;:&quot;string&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.SusNachweis_proof_subtype&quot;},{&quot;name&quot;:&quot;txs_risiko.SusNachweis_proof_type_sort_key&quot;,&quot;type&quot;:&quot;string&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.SusNachweis_proof_type_sort_key&quot;},{&quot;name&quot;:&quot;txs_risiko.SusNachweis_proof_subtype_sort_key&quot;,&quot;type&quot;:&quot;string&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.SusNachweis_proof_subtype_sort_key&quot;}],&quot;timeDimensions&quot;:[],&quot;filters&quot;:[{&quot;and&quot;:[{&quot;member&quot;:&quot;txs_risiko.Stichtag_stichtag&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[],&quot;parameterName&quot;:&quot;Stichtag&quot;},{&quot;member&quot;:&quot;txs_risiko.SusFramework_framework_version_display_name&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[],&quot;parameterName&quot;:&quot;FrameworkVersion&quot;},{&quot;member&quot;:&quot;txs_risiko.TxsGeschaeftskategorie_nachhalt_ausschluss_key&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[],&quot;parameterName&quot;:&quot;PortfolioAusschluss&quot;}]}],&quot;segments&quot;:[{&quot;name&quot;:&quot;txs_risiko.SusNutzungseinheit_ist_framework_compliant&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.SusNutzungseinheit_ist_framework_compliant&quot;},{&quot;name&quot;:&quot;txs_risiko.TxsPool_transaktionsart_hypothekenpfandbrief&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.TxsPool_transaktionsart_hypothekenpfandbrief&quot;},{&quot;name&quot;:&quot;txs_risiko.TxsSlice_ordentliche_deckung_assigned&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.TxsSlice_ordentliche_deckung_assigned&quot;}],&quot;order&quot;:{&quot;txs_risiko.SusNachweis_proof_type_sort_key&quot;:&quot;asc&quot;,&quot;txs_risiko.SusNachweis_proof_subtype_sort_key&quot;:&quot;asc&quot;}},{&quot;name&quot;:&quot;Immobiliennutzung&quot;,&quot;parameter&quot;:null,&quot;measures&quot;:[{&quot;name&quot;:&quot;txs_risiko.sum_restdeckung&quot;,&quot;type&quot;:&quot;number&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.sum_restdeckung&quot;}],&quot;dimensions&quot;:[{&quot;name&quot;:&quot;txs_risiko.SusNutzungseinheit_nutzungskategorie&quot;,&quot;type&quot;:&quot;string&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.SusNutzungseinheit_nutzungskategorie&quot;},{&quot;name&quot;:&quot;txs_risiko.SusNutzungseinheit_nutzungskategorie_sort_key&quot;,&quot;type&quot;:&quot;string&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.SusNutzungseinheit_nutzungskategorie_sort_key&quot;}],&quot;timeDimensions&quot;:[],&quot;filters&quot;:[{&quot;and&quot;:[{&quot;member&quot;:&quot;txs_risiko.Stichtag_stichtag&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[],&quot;parameterName&quot;:&quot;Stichtag&quot;},{&quot;member&quot;:&quot;txs_risiko.SusFramework_framework_version_display_name&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[],&quot;parameterName&quot;:&quot;FrameworkVersion&quot;},{&quot;member&quot;:&quot;txs_risiko.TxsGeschaeftskategorie_nachhalt_ausschluss_key&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[],&quot;parameterName&quot;:&quot;PortfolioAusschluss&quot;}]}],&quot;segments&quot;:[{&quot;name&quot;:&quot;txs_risiko.SusNutzungseinheit_ist_framework_compliant&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.SusNutzungseinheit_ist_framework_compliant&quot;},{&quot;name&quot;:&quot;txs_risiko.TxsPool_transaktionsart_hypothekenpfandbrief&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.TxsPool_transaktionsart_hypothekenpfandbrief&quot;},{&quot;name&quot;:&quot;txs_risiko.TxsSlice_ordentliche_deckung_assigned&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.TxsSlice_ordentliche_deckung_assigned&quot;}],&quot;order&quot;:{&quot;txs_risiko.SusNutzungseinheit_nutzungskategorie_sort_key&quot;:&quot;asc&quot;}},{&quot;name&quot;:&quot;EntfernungOEPNV&quot;,&quot;parameter&quot;:null,&quot;measures&quot;:[{&quot;name&quot;:&quot;txs_risiko.sum_restdeckung&quot;,&quot;type&quot;:&quot;number&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.sum_restdeckung&quot;}],&quot;dimensions&quot;:[{&quot;name&quot;:&quot;txs_risiko.SusPfandobjekt_distance_to_public_transport_group&quot;,&quot;type&quot;:&quot;string&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.SusPfandobjekt_distance_to_public_transport_group&quot;},{&quot;name&quot;:&quot;txs_risiko.SusPfandobjekt_distance_to_public_transport_group_sort_key&quot;,&quot;type&quot;:&quot;string&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.SusPfandobjekt_distance_to_public_transport_group_sort_key&quot;}],&quot;timeDimensions&quot;:[],&quot;filters&quot;:[{&quot;and&quot;:[{&quot;member&quot;:&quot;txs_risiko.Stichtag_stichtag&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[],&quot;parameterName&quot;:&quot;Stichtag&quot;},{&quot;member&quot;:&quot;txs_risiko.SusFramework_framework_version_display_name&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[],&quot;parameterName&quot;:&quot;FrameworkVersion&quot;},{&quot;member&quot;:&quot;txs_risiko.TxsGeschaeftskategorie_nachhalt_ausschluss_key&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[],&quot;parameterName&quot;:&quot;PortfolioAusschluss&quot;}]}],&quot;segments&quot;:[{&quot;name&quot;:&quot;txs_risiko.SusNutzungseinheit_ist_framework_compliant&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.SusNutzungseinheit_ist_framework_compliant&quot;},{&quot;name&quot;:&quot;txs_risiko.TxsPool_transaktionsart_hypothekenpfandbrief&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.TxsPool_transaktionsart_hypothekenpfandbrief&quot;},{&quot;name&quot;:&quot;txs_risiko.TxsSlice_ordentliche_deckung_assigned&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.TxsSlice_ordentliche_deckung_assigned&quot;}],&quot;order&quot;:{&quot;txs_risiko.SusPfandobjekt_distance_to_public_transport_group_sort_key&quot;:&quot;asc&quot;}},{&quot;name&quot;:&quot;Bodenart&quot;,&quot;parameter&quot;:null,&quot;measures&quot;:[{&quot;name&quot;:&quot;txs_risiko.sum_restdeckung&quot;,&quot;type&quot;:&quot;number&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.sum_restdeckung&quot;}],&quot;dimensions&quot;:[{&quot;name&quot;:&quot;txs_risiko.SusPfandobjekt_building_development&quot;,&quot;type&quot;:&quot;string&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.SusPfandobjekt_building_development&quot;},{&quot;name&quot;:&quot;txs_risiko.SusPfandobjekt_building_development_sort_key&quot;,&quot;type&quot;:&quot;string&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.SusPfandobjekt_building_development_sort_key&quot;}],&quot;timeDimensions&quot;:[],&quot;filters&quot;:[{&quot;and&quot;:[{&quot;member&quot;:&quot;txs_risiko.Stichtag_stichtag&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[],&quot;parameterName&quot;:&quot;Stichtag&quot;},{&quot;member&quot;:&quot;txs_risiko.SusFramework_framework_version_display_name&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[],&quot;parameterName&quot;:&quot;FrameworkVersion&quot;},{&quot;member&quot;:&quot;txs_risiko.TxsGeschaeftskategorie_nachhalt_ausschluss_key&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[],&quot;parameterName&quot;:&quot;PortfolioAusschluss&quot;}]}],&quot;segments&quot;:[{&quot;name&quot;:&quot;txs_risiko.SusNutzungseinheit_ist_framework_compliant&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.SusNutzungseinheit_ist_framework_compliant&quot;},{&quot;name&quot;:&quot;txs_risiko.TxsPool_transaktionsart_hypothekenpfandbrief&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.TxsPool_transaktionsart_hypothekenpfandbrief&quot;},{&quot;name&quot;:&quot;txs_risiko.TxsSlice_ordentliche_deckung_assigned&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.TxsSlice_ordentliche_deckung_assigned&quot;}],&quot;order&quot;:{&quot;txs_risiko.SusPfandobjekt_building_development_sort_key&quot;:&quot;asc&quot;}},{&quot;name&quot;:&quot;NachhaltigkeitKreditzweck&quot;,&quot;parameter&quot;:null,&quot;measures&quot;:[{&quot;name&quot;:&quot;txs_risiko.sum_restdeckung&quot;,&quot;type&quot;:&quot;number&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.sum_restdeckung&quot;}],&quot;dimensions&quot;:[{&quot;name&quot;:&quot;txs_risiko.TxsGeschaeftskategorie_nachhaltigkeitart&quot;,&quot;type&quot;:&quot;string&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.TxsGeschaeftskategorie_nachhaltigkeitart&quot;},{&quot;name&quot;:&quot;txs_risiko.TxsGeschaeftskategorie_nachhaltigkeitart_sort_key&quot;,&quot;type&quot;:&quot;string&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.TxsGeschaeftskategorie_nachhaltigkeitart_sort_key&quot;}],&quot;timeDimensions&quot;:[],&quot;filters&quot;:[{&quot;and&quot;:[{&quot;member&quot;:&quot;txs_risiko.Stichtag_stichtag&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[],&quot;parameterName&quot;:&quot;Stichtag&quot;},{&quot;member&quot;:&quot;txs_risiko.SusFramework_framework_version_display_name&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[],&quot;parameterName&quot;:&quot;FrameworkVersion&quot;},{&quot;member&quot;:&quot;txs_risiko.TxsGeschaeftskategorie_nachhalt_ausschluss_key&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[],&quot;parameterName&quot;:&quot;PortfolioAusschluss&quot;}]}],&quot;segments&quot;:[{&quot;name&quot;:&quot;txs_risiko.SusNutzungseinheit_ist_framework_compliant&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.SusNutzungseinheit_ist_framework_compliant&quot;},{&quot;name&quot;:&quot;txs_risiko.TxsPool_transaktionsart_hypothekenpfandbrief&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.TxsPool_transaktionsart_hypothekenpfandbrief&quot;},{&quot;name&quot;:&quot;txs_risiko.TxsSlice_ordentliche_deckung_assigned&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.TxsSlice_ordentliche_deckung_assigned&quot;}],&quot;order&quot;:{&quot;txs_risiko.TxsGeschaeftskategorie_nachhaltigkeitart_sort_key&quot;:&quot;asc&quot;}},{&quot;name&quot;:&quot;Groessenklassen&quot;,&quot;parameter&quot;:null,&quot;measures&quot;:[{&quot;name&quot;:&quot;txs_risiko.Groessenklassen_sum_restdeckung&quot;,&quot;type&quot;:&quot;number&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.Groessenklassen_sum_restdeckung&quot;}],&quot;dimensions&quot;:[{&quot;name&quot;:&quot;txs_risiko.TxsGroessenklassen_band_range_name&quot;,&quot;type&quot;:&quot;string&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.TxsGroessenklassen_band_range_name&quot;},{&quot;name&quot;:&quot;txs_risiko.TxsGroessenklassen_band_group_sort_order&quot;,&quot;type&quot;:&quot;string&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.TxsGroessenklassen_band_group_sort_order&quot;}],&quot;timeDimensions&quot;:[],&quot;filters&quot;:[{&quot;and&quot;:[{&quot;member&quot;:&quot;txs_risiko.TxsGroessenklassen_band_group_name&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[&quot;RisikoGroessenKlassen&quot;]},{&quot;or&quot;:[{&quot;member&quot;:&quot;txs_risiko.SusFramework_framework_version_display_name&quot;,&quot;operator&quot;:&quot;notSet&quot;,&quot;values&quot;:[]},{&quot;and&quot;:[{&quot;member&quot;:&quot;txs_risiko.SusNutzungseinheit_is_framework_compliant_flag&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[&quot;1&quot;]},{&quot;member&quot;:&quot;txs_risiko.TxsPool_transaktionsart_key&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[&quot;HYPOTHEKEN_PFANDBRIEF&quot;]},{&quot;member&quot;:&quot;txs_risiko.TxsSlice_deckungstyp_key&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[&quot;1&quot;]},{&quot;member&quot;:&quot;txs_risiko.Stichtag_stichtag&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[],&quot;parameterName&quot;:&quot;Stichtag&quot;},{&quot;member&quot;:&quot;txs_risiko.SusFramework_framework_version_display_name&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[],&quot;parameterName&quot;:&quot;FrameworkVersion&quot;},{&quot;member&quot;:&quot;txs_risiko.TxsGeschaeftskategorie_nachhalt_ausschluss_key&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[],&quot;parameterName&quot;:&quot;PortfolioAusschluss&quot;}]}]}]}],&quot;segments&quot;:[],&quot;order&quot;:{&quot;txs_risiko.TxsGroessenklassen_band_group_sort_order&quot;:&quot;asc&quot;}},{&quot;name&quot;:&quot;Restlaufzeit&quot;,&quot;parameter&quot;:null,&quot;measures&quot;:[{&quot;name&quot;:&quot;txs_cashflow.abs_sum_tilgung_nominal&quot;,&quot;type&quot;:&quot;number&quot;,&quot;shortTitle&quot;:&quot;txs_cashflow.abs_sum_tilgung_nominal&quot;}],&quot;dimensions&quot;:[{&quot;name&quot;:&quot;txs_cashflow.booking_bucket_restlaufzeit_bucket_key&quot;,&quot;type&quot;:&quot;string&quot;,&quot;shortTitle&quot;:&quot;txs_cashflow.booking_bucket_restlaufzeit_bucket_key&quot;},{&quot;name&quot;:&quot;txs_cashflow.booking_bucket_restlaufzeit_bucket&quot;,&quot;type&quot;:&quot;string&quot;,&quot;shortTitle&quot;:&quot;txs_cashflow.booking_bucket_restlaufzeit_bucket&quot;}],&quot;timeDimensions&quot;:[],&quot;filters&quot;:[{&quot;and&quot;:[{&quot;member&quot;:&quot;txs_cashflow.txs_cashflow_berechnungslauf_txs_cashflow_berechnungslauf_key&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[],&quot;parameterName&quot;:&quot;Berechnungslauf&quot;},{&quot;member&quot;:&quot;txs_cashflow.txs_cashflow_berechnungslauf_eigenschaften_zinsszenariotyp&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[&quot;Marktzins&quot;]},{&quot;member&quot;:&quot;txs_cashflow.txs_cashflow_berechnungslauf_eigenschaften_waehrungsstress&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[&quot;Ohne W\u00E4hrungsstress&quot;]},{&quot;member&quot;:&quot;txs_cashflow.txs_cashflow_pool_aktiv_passiv&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[&quot;Aktiv&quot;]},{&quot;member&quot;:&quot;txs_cashflow.txs_cashflow_pool_cashflow_typ&quot;,&quot;operator&quot;:&quot;notEquals&quot;,&quot;values&quot;:[&quot;Eintragung&quot;]}]}],&quot;segments&quot;:[],&quot;order&quot;:{&quot;txs_cashflow.booking_bucket_restlaufzeit_bucket_key&quot;:&quot;asc&quot;}},{&quot;name&quot;:&quot;GewichteteRestlaufzeit&quot;,&quot;parameter&quot;:null,&quot;measures&quot;:[{&quot;name&quot;:&quot;txs_cashflow.abs_sum_tilgung_nominal&quot;,&quot;type&quot;:&quot;number&quot;,&quot;shortTitle&quot;:&quot;txs_cashflow.abs_sum_tilgung_nominal&quot;},{&quot;name&quot;:&quot;txs_cashflow.gewichtete_restlaufzeit&quot;,&quot;type&quot;:&quot;number&quot;,&quot;shortTitle&quot;:&quot;txs_cashflow.gewichtete_restlaufzeit&quot;}],&quot;dimensions&quot;:[{&quot;name&quot;:&quot;txs_cashflow.txs_cashflow_pool_aktiv_passiv&quot;,&quot;type&quot;:&quot;string&quot;,&quot;shortTitle&quot;:&quot;txs_cashflow.txs_cashflow_pool_aktiv_passiv&quot;}],&quot;timeDimensions&quot;:[],&quot;filters&quot;:[{&quot;and&quot;:[{&quot;member&quot;:&quot;txs_cashflow.txs_cashflow_berechnungslauf_txs_cashflow_berechnungslauf_key&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[],&quot;parameterName&quot;:&quot;Berechnungslauf&quot;},{&quot;member&quot;:&quot;txs_cashflow.txs_cashflow_berechnungslauf_eigenschaften_zinsszenariotyp&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[&quot;Marktzins&quot;]},{&quot;member&quot;:&quot;txs_cashflow.txs_cashflow_berechnungslauf_eigenschaften_waehrungsstress&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[&quot;Ohne W\u00E4hrungsstress&quot;]},{&quot;member&quot;:&quot;txs_cashflow.txs_cashflow_pool_aktiv_passiv&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[&quot;Aktiv&quot;]},{&quot;member&quot;:&quot;txs_cashflow.txs_cashflow_pool_cashflow_typ&quot;,&quot;operator&quot;:&quot;notEquals&quot;,&quot;values&quot;:[&quot;Eintragung&quot;]}]}],&quot;segments&quot;:[],&quot;order&quot;:{&quot;txs_cashflow.txs_cashflow_pool_aktiv_passiv&quot;:&quot;asc&quot;}},{&quot;name&quot;:&quot;ImpactAnleiheDaten&quot;,&quot;parameter&quot;:null,&quot;measures&quot;:[{&quot;name&quot;:&quot;txs_risiko_passiv.sum_restkapital&quot;,&quot;type&quot;:&quot;number&quot;,&quot;shortTitle&quot;:&quot;txs_risiko_passiv.sum_restkapital&quot;},{&quot;name&quot;:&quot;txs_risiko_passiv.sum_nominalkapital_eur&quot;,&quot;type&quot;:&quot;number&quot;,&quot;shortTitle&quot;:&quot;txs_risiko_passiv.sum_nominalkapital_eur&quot;}],&quot;dimensions&quot;:[],&quot;timeDimensions&quot;:[],&quot;filters&quot;:[{&quot;and&quot;:[{&quot;member&quot;:&quot;txs_risiko_passiv.Stichtag_stichtag&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[],&quot;parameterName&quot;:&quot;Stichtag&quot;},{&quot;member&quot;:&quot;txs_risiko_passiv.SusFramework_framework_version_display_name&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[],&quot;parameterName&quot;:&quot;FrameworkVersion&quot;}]}],&quot;segments&quot;:[{&quot;name&quot;:&quot;txs_risiko_passiv.TxsPool_transaktionsart_hypothekenpfandbrief&quot;,&quot;shortTitle&quot;:&quot;txs_risiko_passiv.TxsPool_transaktionsart_hypothekenpfandbrief&quot;}],&quot;order&quot;:{}},{&quot;name&quot;:&quot;ImpactPortfolioDaten&quot;,&quot;parameter&quot;:null,&quot;measures&quot;:[{&quot;name&quot;:&quot;txs_risiko.sum_restdeckung&quot;,&quot;type&quot;:&quot;number&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.sum_restdeckung&quot;},{&quot;name&quot;:&quot;txs_risiko.sum_gewichteter_institutsanteil&quot;,&quot;type&quot;:&quot;number&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.sum_gewichteter_institutsanteil&quot;},{&quot;name&quot;:&quot;txs_risiko.anz_pfandobjekte&quot;,&quot;type&quot;:&quot;number&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.anz_pfandobjekte&quot;},{&quot;name&quot;:&quot;txs_risiko.sum_pfandobjekt_flaeche_in_qm&quot;,&quot;type&quot;:&quot;number&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.sum_pfandobjekt_flaeche_in_qm&quot;},{&quot;name&quot;:&quot;txs_risiko.sum_energie_verbrauch&quot;,&quot;type&quot;:&quot;number&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.sum_energie_verbrauch&quot;},{&quot;name&quot;:&quot;txs_risiko.sum_energie_benchmark&quot;,&quot;type&quot;:&quot;number&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.sum_energie_benchmark&quot;},{&quot;name&quot;:&quot;txs_risiko.sum_energie_einsparung&quot;,&quot;type&quot;:&quot;number&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.sum_energie_einsparung&quot;},{&quot;name&quot;:&quot;txs_risiko.sum_energie_einsparung_institutsanteil&quot;,&quot;type&quot;:&quot;number&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.sum_energie_einsparung_institutsanteil&quot;},{&quot;name&quot;:&quot;txs_risiko.sum_co2_verbrauch&quot;,&quot;type&quot;:&quot;number&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.sum_co2_verbrauch&quot;},{&quot;name&quot;:&quot;txs_risiko.sum_co2_benchmark&quot;,&quot;type&quot;:&quot;number&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.sum_co2_benchmark&quot;},{&quot;name&quot;:&quot;txs_risiko.sum_co2_einsparung&quot;,&quot;type&quot;:&quot;number&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.sum_co2_einsparung&quot;},{&quot;name&quot;:&quot;txs_risiko.sum_co2_einsparung_institutsanteil&quot;,&quot;type&quot;:&quot;number&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.sum_co2_einsparung_institutsanteil&quot;}],&quot;dimensions&quot;:[],&quot;timeDimensions&quot;:[],&quot;filters&quot;:[{&quot;and&quot;:[{&quot;member&quot;:&quot;txs_risiko.Stichtag_stichtag&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[],&quot;parameterName&quot;:&quot;Stichtag&quot;},{&quot;member&quot;:&quot;txs_risiko.SusFramework_framework_version_display_name&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[],&quot;parameterName&quot;:&quot;FrameworkVersion&quot;},{&quot;member&quot;:&quot;txs_risiko.TxsGeschaeftskategorie_nachhalt_ausschluss_key&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[],&quot;parameterName&quot;:&quot;PortfolioAusschluss&quot;}]}],&quot;segments&quot;:[{&quot;name&quot;:&quot;txs_risiko.SusNutzungseinheit_ist_framework_compliant&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.SusNutzungseinheit_ist_framework_compliant&quot;},{&quot;name&quot;:&quot;txs_risiko.TxsPool_transaktionsart_hypothekenpfandbrief&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.TxsPool_transaktionsart_hypothekenpfandbrief&quot;},{&quot;name&quot;:&quot;txs_risiko.TxsSlice_ordentliche_deckung_assigned&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.TxsSlice_ordentliche_deckung_assigned&quot;}],&quot;order&quot;:{}},{&quot;name&quot;:&quot;PfandobjektDaten&quot;,&quot;parameter&quot;:null,&quot;measures&quot;:[{&quot;name&quot;:&quot;txs_risiko.anz_pfandobjekte&quot;,&quot;type&quot;:&quot;number&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.anz_pfandobjekte&quot;},{&quot;name&quot;:&quot;txs_risiko.sum_pfandobjekt_flaeche_in_qm&quot;,&quot;type&quot;:&quot;number&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.sum_pfandobjekt_flaeche_in_qm&quot;}],&quot;dimensions&quot;:[],&quot;timeDimensions&quot;:[],&quot;filters&quot;:[{&quot;and&quot;:[{&quot;member&quot;:&quot;txs_risiko.Stichtag_stichtag&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[],&quot;parameterName&quot;:&quot;Stichtag&quot;},{&quot;member&quot;:&quot;txs_risiko.SusFramework_framework_version_display_name&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[],&quot;parameterName&quot;:&quot;FrameworkVersion&quot;},{&quot;member&quot;:&quot;txs_risiko.TxsGeschaeftskategorie_nachhalt_ausschluss_key&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[],&quot;parameterName&quot;:&quot;PortfolioAusschluss&quot;}]}],&quot;segments&quot;:[{&quot;name&quot;:&quot;txs_risiko.SusNutzungseinheit_ist_framework_compliant&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.SusNutzungseinheit_ist_framework_compliant&quot;},{&quot;name&quot;:&quot;txs_risiko.TxsPool_transaktionsart_hypothekenpfandbrief&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.TxsPool_transaktionsart_hypothekenpfandbrief&quot;},{&quot;name&quot;:&quot;txs_risiko.TxsSlice_ordentliche_deckung_assigned&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.TxsSlice_ordentliche_deckung_assigned&quot;}],&quot;order&quot;:{}},{&quot;name&quot;:&quot;J\u00E4hrlicheEnergiewerte&quot;,&quot;parameter&quot;:null,&quot;measures&quot;:[{&quot;name&quot;:&quot;txs_risiko.sum_energie_verbrauch&quot;,&quot;type&quot;:&quot;number&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.sum_energie_verbrauch&quot;},{&quot;name&quot;:&quot;txs_risiko.sum_energie_benchmark&quot;,&quot;type&quot;:&quot;number&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.sum_energie_benchmark&quot;},{&quot;name&quot;:&quot;txs_risiko.sum_energie_einsparung&quot;,&quot;type&quot;:&quot;number&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.sum_energie_einsparung&quot;},{&quot;name&quot;:&quot;txs_risiko.sum_energie_einsparung_institutsanteil&quot;,&quot;type&quot;:&quot;number&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.sum_energie_einsparung_institutsanteil&quot;}],&quot;dimensions&quot;:[],&quot;timeDimensions&quot;:[],&quot;filters&quot;:[{&quot;and&quot;:[{&quot;member&quot;:&quot;txs_risiko.Stichtag_stichtag&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[],&quot;parameterName&quot;:&quot;Stichtag&quot;},{&quot;member&quot;:&quot;txs_risiko.SusFramework_framework_version_display_name&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[],&quot;parameterName&quot;:&quot;FrameworkVersion&quot;},{&quot;member&quot;:&quot;txs_risiko.TxsGeschaeftskategorie_nachhalt_ausschluss_key&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[],&quot;parameterName&quot;:&quot;PortfolioAusschluss&quot;}]}],&quot;segments&quot;:[{&quot;name&quot;:&quot;txs_risiko.SusNutzungseinheit_ist_framework_compliant&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.SusNutzungseinheit_ist_framework_compliant&quot;},{&quot;name&quot;:&quot;txs_risiko.TxsPool_transaktionsart_hypothekenpfandbrief&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.TxsPool_transaktionsart_hypothekenpfandbrief&quot;},{&quot;name&quot;:&quot;txs_risiko.TxsSlice_ordentliche_deckung_assigned&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.TxsSlice_ordentliche_deckung_assigned&quot;}],&quot;order&quot;:{}},{&quot;name&quot;:&quot;J\u00E4hrlicheCO2Werte&quot;,&quot;parameter&quot;:null,&quot;measures&quot;:[{&quot;name&quot;:&quot;txs_risiko.sum_co2_verbrauch&quot;,&quot;type&quot;:&quot;number&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.sum_co2_verbrauch&quot;},{&quot;name&quot;:&quot;txs_risiko.sum_co2_benchmark&quot;,&quot;type&quot;:&quot;number&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.sum_co2_benchmark&quot;},{&quot;name&quot;:&quot;txs_risiko.sum_co2_einsparung&quot;,&quot;type&quot;:&quot;number&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.sum_co2_einsparung&quot;},{&quot;name&quot;:&quot;txs_risiko.sum_co2_einsparung_institutsanteil&quot;,&quot;type&quot;:&quot;number&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.sum_co2_einsparung_institutsanteil&quot;}],&quot;dimensions&quot;:[],&quot;timeDimensions&quot;:[],&quot;filters&quot;:[{&quot;and&quot;:[{&quot;member&quot;:&quot;txs_risiko.Stichtag_stichtag&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[],&quot;parameterName&quot;:&quot;Stichtag&quot;},{&quot;member&quot;:&quot;txs_risiko.SusFramework_framework_version_display_name&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[],&quot;parameterName&quot;:&quot;FrameworkVersion&quot;},{&quot;member&quot;:&quot;txs_risiko.TxsGeschaeftskategorie_nachhalt_ausschluss_key&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[],&quot;parameterName&quot;:&quot;PortfolioAusschluss&quot;}]}],&quot;segments&quot;:[{&quot;name&quot;:&quot;txs_risiko.SusNutzungseinheit_ist_framework_compliant&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.SusNutzungseinheit_ist_framework_compliant&quot;},{&quot;name&quot;:&quot;txs_risiko.TxsPool_transaktionsart_hypothekenpfandbrief&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.TxsPool_transaktionsart_hypothekenpfandbrief&quot;},{&quot;name&quot;:&quot;txs_risiko.TxsSlice_ordentliche_deckung_assigned&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.TxsSlice_ordentliche_deckung_assigned&quot;}],&quot;order&quot;:{}},{&quot;name&quot;:&quot;StichtagParameter&quot;,&quot;parameter&quot;:{&quot;name&quot;:&quot;Stichtag&quot;,&quot;type&quot;:&quot;Time&quot;,&quot;filterMemberName&quot;:&quot;txs_risiko.Stichtag_stichtag&quot;,&quot;filterDisplayMemberName&quot;:&quot;txs_risiko.Stichtag_stichtag&quot;,&quot;filterSortMemberName&quot;:&quot;&quot;,&quot;sortOrder&quot;:&quot;descending&quot;,&quot;description&quot;:&quot;Stichtag&quot;,&quot;defaultValues&quot;:[]},&quot;measures&quot;:[],&quot;dimensions&quot;:[],&quot;timeDimensions&quot;:[{&quot;name&quot;:&quot;txs_risiko.Stichtag_stichtag&quot;,&quot;type&quot;:&quot;time&quot;,&quot;granularity&quot;:&quot;day&quot;,&quot;shortTitle&quot;:&quot;Stichtag&quot;}],&quot;filters&quot;:[],&quot;segments&quot;:[],&quot;order&quot;:{}},{&quot;name&quot;:&quot;FrameworkVersionParameter&quot;,&quot;parameter&quot;:{&quot;name&quot;:&quot;FrameworkVersion&quot;,&quot;type&quot;:&quot;String&quot;,&quot;filterMemberName&quot;:&quot;txs_risiko.SusFramework_framework_version_display_name&quot;,&quot;filterDisplayMemberName&quot;:&quot;txs_risiko.SusFramework_framework_version_display_name&quot;,&quot;filterSortMemberName&quot;:&quot;&quot;,&quot;sortOrder&quot;:&quot;descending&quot;,&quot;description&quot;:&quot;FrameworkVersion&quot;,&quot;defaultValues&quot;:[]},&quot;measures&quot;:[],&quot;dimensions&quot;:[{&quot;name&quot;:&quot;txs_risiko.SusFramework_framework_version_display_name&quot;,&quot;type&quot;:&quot;string&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.SusFramework_framework_version_display_name&quot;},{&quot;name&quot;:&quot;txs_risiko.SusFramework_framework_display_name&quot;,&quot;type&quot;:&quot;string&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.SusFramework_framework_display_name&quot;}],&quot;timeDimensions&quot;:[],&quot;filters&quot;:[{&quot;member&quot;:&quot;txs_risiko.SusFramework_type_key&quot;,&quot;operator&quot;:&quot;notEquals&quot;,&quot;values&quot;:[&quot;UNKNOWN&quot;,&quot;NO_LIC&quot;]}],&quot;segments&quot;:[],&quot;order&quot;:{}},{&quot;name&quot;:&quot;KonfigurationBezeichnungParameter&quot;,&quot;parameter&quot;:{&quot;name&quot;:&quot;KonfigurationBezeichnung&quot;,&quot;type&quot;:&quot;String&quot;,&quot;filterMemberName&quot;:&quot;txs_cashflow.txs_szenario_konfiguration_konfiguration_bezeichnung&quot;,&quot;filterDisplayMemberName&quot;:&quot;txs_cashflow.txs_szenario_konfiguration_konfiguration_bezeichnung&quot;,&quot;filterSortMemberName&quot;:&quot;&quot;,&quot;sortOrder&quot;:&quot;none&quot;,&quot;description&quot;:&quot;Konfiguration Bezeichnung&quot;,&quot;defaultValues&quot;:[]},&quot;measures&quot;:[],&quot;dimensions&quot;:[{&quot;name&quot;:&quot;txs_cashflow.txs_szenario_konfiguration_konfiguration_bezeichnung&quot;,&quot;type&quot;:&quot;string&quot;,&quot;shortTitle&quot;:&quot;txs_cashflow.txs_szenario_konfiguration_konfiguration_bezeichnung&quot;}],&quot;timeDimensions&quot;:[],&quot;filters&quot;:[{&quot;member&quot;:&quot;txs_cashflow.txs_szenario_konfiguration_nachhaltig_keitsart&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;values&quot;:[&quot;Green&quot;]}],&quot;segments&quot;:[],&quot;order&quot;:{}},{&quot;name&quot;:&quot;BerechnungslaufParameter&quot;,&quot;parameter&quot;:{&quot;name&quot;:&quot;Berechnungslauf&quot;,&quot;type&quot;:&quot;String&quot;,&quot;filterMemberName&quot;:&quot;txs_cashflow.txs_cashflow_berechnungslauf_txs_cashflow_berechnungslauf_key&quot;,&quot;filterDisplayMemberName&quot;:&quot;txs_cashflow.txs_cashflow_berechnungslauf_berechnungslauf&quot;,&quot;filterSortMemberName&quot;:&quot;&quot;,&quot;sortOrder&quot;:&quot;none&quot;,&quot;description&quot;:&quot;Berechnungslauf&quot;,&quot;defaultValues&quot;:[]},&quot;measures&quot;:[],&quot;dimensions&quot;:[{&quot;name&quot;:&quot;txs_cashflow.txs_cashflow_berechnungslauf_txs_cashflow_berechnungslauf_key&quot;,&quot;type&quot;:&quot;string&quot;,&quot;shortTitle&quot;:&quot;txs_cashflow.txs_cashflow_berechnungslauf_txs_cashflow_berechnungslauf_key&quot;},{&quot;name&quot;:&quot;txs_cashflow.txs_cashflow_berechnungslauf_berechnungsstichtag&quot;,&quot;type&quot;:&quot;string&quot;,&quot;shortTitle&quot;:&quot;txs_cashflow.txs_cashflow_berechnungslauf_berechnungsstichtag&quot;},{&quot;name&quot;:&quot;txs_cashflow.txs_cashflow_berechnungslauf_erstellungs_datum&quot;,&quot;type&quot;:&quot;string&quot;,&quot;shortTitle&quot;:&quot;txs_cashflow.txs_cashflow_berechnungslauf_erstellungs_datum&quot;},{&quot;name&quot;:&quot;txs_cashflow.txs_cashflow_berechnungslauf_konfiguration_bezeichnung&quot;,&quot;type&quot;:&quot;string&quot;,&quot;shortTitle&quot;:&quot;txs_cashflow.txs_cashflow_berechnungslauf_konfiguration_bezeichnung&quot;},{&quot;name&quot;:&quot;txs_cashflow.txs_cashflow_berechnungslauf_berechnungslauf&quot;,&quot;type&quot;:&quot;string&quot;,&quot;shortTitle&quot;:&quot;txs_cashflow.txs_cashflow_berechnungslauf_berechnungslauf&quot;}],&quot;timeDimensions&quot;:[],&quot;filters&quot;:[],&quot;segments&quot;:[],&quot;order&quot;:{&quot;txs_cashflow.txs_cashflow_berechnungslauf_berechnungsstichtag&quot;:&quot;desc&quot;,&quot;txs_cashflow.txs_cashflow_berechnungslauf_erstellungs_datum&quot;:&quot;desc&quot;}},{&quot;name&quot;:&quot;PortfolioAusschlussParameter&quot;,&quot;parameter&quot;:{&quot;name&quot;:&quot;PortfolioAusschluss&quot;,&quot;type&quot;:&quot;String&quot;,&quot;filterMemberName&quot;:&quot;txs_risiko.TxsGeschaeftskategorie_nachhalt_ausschluss_key&quot;,&quot;filterDisplayMemberName&quot;:&quot;txs_risiko.TxsGeschaeftskategorie_nachhalt_ausschluss&quot;,&quot;filterSortMemberName&quot;:&quot;txs_risiko.TxsGeschaeftskategorie_nachhalt_ausschluss_sort_key&quot;,&quot;sortOrder&quot;:&quot;none&quot;,&quot;description&quot;:&quot;Ausschluss aus dem Portfolio&quot;,&quot;defaultValues&quot;:[&quot;0&quot;,&quot;UNKNOWN&quot;]},&quot;measures&quot;:[],&quot;dimensions&quot;:[{&quot;name&quot;:&quot;txs_risiko.TxsGeschaeftskategorie_nachhalt_ausschluss&quot;,&quot;type&quot;:&quot;string&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.TxsGeschaeftskategorie_nachhalt_ausschluss&quot;},{&quot;name&quot;:&quot;txs_risiko.TxsGeschaeftskategorie_nachhalt_ausschluss_key&quot;,&quot;type&quot;:&quot;string&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.TxsGeschaeftskategorie_nachhalt_ausschluss_key&quot;},{&quot;name&quot;:&quot;txs_risiko.TxsGeschaeftskategorie_nachhalt_ausschluss_sort_key&quot;,&quot;type&quot;:&quot;string&quot;,&quot;shortTitle&quot;:&quot;txs_risiko.TxsGeschaeftskategorie_nachhalt_ausschluss_sort_key&quot;}],&quot;timeDimensions&quot;:[],&quot;filters&quot;:[],&quot;segments&quot;:[],&quot;order&quot;:{}}]}}">
+  <Extensions> 
+    <Item1 Ref="2" Key="DataSerializationExtension" Value="DevExpress.XtraReports.Web.ReportDesigner.DefaultDataSerializer" />
+  </Extensions>
+  <Parameters>
+    <Item1 Ref="5" Description="Stichtag" ValueSourceSettings="#Ref-3" Name="Stichtag" Type="#Ref-4" />
+    <Item2 Ref="8" Description="FrameworkVersion" ValueSourceSettings="#Ref-6" MultiValue="true" Name="FrameworkVersion" />
+    <Item3 Ref="10" Description="Konfiguration Bezeichnung" ValueSourceSettings="#Ref-9" MultiValue="true" Name="KonfigurationBezeichnung" />
+    <Item4 Ref="12" Description="Berechnungslauf" ValueSourceSettings="#Ref-11" MultiValue="true" Name="Berechnungslauf" />
+    <Item5 Ref="14" Description="Ausschluss aus dem Portfolio" ValueSourceSettings="#Ref-13" MultiValue="true" ValueInfo="0|UNKNOWN" AllowNull="true" Name="PortfolioAusschluss" />
+  </Parameters>
+  <CalculatedFields>
+    <Item1 Ref="15" Name="Nachweis_pct_restdeckung" Expression="Iif(Sum( [txs_risiko__sum_restdeckung] ) != 0, &#xD;&#xA;[txs_risiko__sum_restdeckung] / Sum( [txs_risiko__sum_restdeckung] ), 0)" DataMember="Nachweise" />
+    <Item2 Ref="16" Name="Restlaufzeit_pct_tilgung_nominal" Expression="Iif(Sum ( [txs_cashflow__abs_sum_tilgung_nominal]  ) != 0,&#xA;[txs_cashflow__abs_sum_tilgung_nominal] / Sum ( [txs_cashflow__abs_sum_tilgung_nominal] ), 0)" DataMember="Restlaufzeit" />
+    <Item3 Ref="17" Name="Immobiliennutzung_pct_restdeckung" Expression="Iif(Sum( [txs_risiko__sum_restdeckung] ) != 0, &#xD;&#xA;[txs_risiko__sum_restdeckung] / Sum( [txs_risiko__sum_restdeckung] ), 0)" DataMember="Immobiliennutzung" />
+    <Item4 Ref="18" Name="Groessenklassen_pct_restdeckung_finanzgeschaeft" Expression="Iif(Sum( [txs_risiko__Groessenklassen_sum_restdeckung] ) != 0,&#xA;[txs_risiko__Groessenklassen_sum_restdeckung] / Sum( [txs_risiko__Groessenklassen_sum_restdeckung] ), 0)" DataMember="Groessenklassen" />
+    <Item5 Ref="19" Name="EntfernungOEPNV_pct_restdeckung" Expression="Iif(Sum( [txs_risiko__sum_restdeckung] ) != 0,&#xA;[txs_risiko__sum_restdeckung] / Sum( [txs_risiko__sum_restdeckung] ), 0)" DataMember="EntfernungOEPNV" />
+    <Item6 Ref="20" Name="Bodenart_pct_restdeckung" Expression="Iif(Sum( [txs_risiko__sum_restdeckung] ) != 0, &#xA;[txs_risiko__sum_restdeckung] / Sum( [txs_risiko__sum_restdeckung] ), 0)" DataMember="Bodenart" />
+    <Item7 Ref="21" Name="NachhaltigkeitKreditzweck_pct_restdeckung" Expression="Iif(Sum( [txs_risiko__sum_restdeckung] ) != 0, &#xD;&#xA;[txs_risiko__sum_restdeckung] / Sum( [txs_risiko__sum_restdeckung] ), 0)" DataMember="NachhaltigkeitKreditzweck" />
+  </CalculatedFields>
+  <Bands>
+    <Item1 Ref="22" ControlType="TopMarginBand" Name="TopMargin1" Dpi="254" HeightF="150" />
+    <Item2 Ref="23" ControlType="PageHeaderBand" Name="PageHeader1" Dpi="254" HeightF="300">
+      <Controls>
+        <Item1 Ref="24" ControlType="XRLabel" Name="labelTitel" Dpi="254" Multiline="true" TextTrimming="EllipsisWord" Text="Sustainable Covered Bond Report" TextAlignment="MiddleLeft" SizeF="1582.1091,108.677605" LocationFloat="0,0" Font="Arial, 20pt" ForeColor="White" BackColor="255,70,117,148" Padding="5.08,5.08,0,0,254">
+          <ExpressionBindings>
+            <Item1 Ref="25" EventName="BeforePrint" PropertyName="BackColor" Expression="rgb(66, 107, 137)" />
+          </ExpressionBindings>
+          <StylePriority Ref="26" UseFont="false" UseForeColor="false" UseBackColor="false" UsePadding="false" UseTextAlignment="false" />
+        </Item1>
+        <Item2 Ref="27" ControlType="XRLabel" Name="labelParameter" Dpi="254" Multiline="true" Text="label1" SizeF="1580,80.615234" LocationFloat="2.645829,145.52083" Font="Arial, 6pt" Padding="5.08,5.08,0,0,254">
+          <ExpressionBindings>
+            <Item1 Ref="28" EventName="BeforePrint" PropertyName="Text" Expression="Concat('Stichtag: ', ?Stichtag, NewLine(),&#xA;'Framework Version: ', Join(?FrameworkVersion, ', '), NewLine(),&#xA;GetDisplayText(?Berechnungslauf))" />
+          </ExpressionBindings>
+          <StylePriority Ref="29" UseFont="false" UsePadding="false" />
+        </Item2>
+      </Controls>
+    </Item2>
+    <Item3 Ref="30" ControlType="GroupHeaderBand" Name="GroupHeader1" Dpi="254" HeightF="5" ForeColor="0,0,0,0" BorderColor="0,0,0,0">
+      <Controls>
+        <Item1 Ref="31" ControlType="XRLabel" Name="BestandLabel" Dpi="254" CanGrow="false" TextTrimming="EllipsisWord" Text="Bestand" TextAlignment="MiddleLeft" Bookmark="Bestand" SizeF="1582.1091,5" LocationFloat="0,0" Font="Arial, 12pt" ForeColor="Transparent" BackColor="0,70,117,148" Padding="5.08,5.08,0,0,254" BorderColor="0,0,0,0">
+          <ExpressionBindings>
+            <Item1 Ref="32" EventName="BeforePrint" PropertyName="BackColor" Expression="rgb(66, 107, 137)" />
+          </ExpressionBindings>
+          <StylePriority Ref="33" UseFont="false" UseForeColor="false" UseBackColor="false" UsePadding="false" UseBorderColor="false" UseTextAlignment="false" />
+        </Item1>
+      </Controls>
+      <StylePriority Ref="34" UseForeColor="false" UseBorderColor="false" />
+    </Item3>
+    <Item4 Ref="35" ControlType="DetailBand" Name="DetailBestand" Dpi="254" HeightF="0.02">
+      <SubBands>
+        <Item1 Ref="36" ControlType="SubBand" Name="SubBandNachweis" Dpi="254" HeightF="432" KeepTogether="true">
+          <Controls>
+            <Item1 Ref="37" ControlType="XRCrossTab" Name="crossTabNachweis" Dpi="254" GeneralStyleName="crossTabGeneralStyle1" DataAreaStyleName="crossTabDataStyle1" HeaderAreaStyleName="crossTabHeaderStyle1" TotalAreaStyleName="crossTabTotalStyle1" DataSource="#Ref-0" DataMember="Nachweise" SizeF="1587.391,304.8" LocationFloat="0,0">
+              <LayoutOptions Ref="38" RowTotalHeaderPosition="Inner" HierarchicalRowLayout="true" />
+              <RowFields>
+                <Item1 Ref="39" SortOrder="None" FieldName="txs_risiko__SusNachweis_proof_type" />
+                <Item2 Ref="40" SortOrder="None" FieldName="txs_risiko__SusNachweis_proof_subtype" />
+              </RowFields>
+              <DataFields>
+                <Item1 Ref="41" FieldName="txs_risiko__sum_restdeckung" />
+                <Item2 Ref="42" FieldName="Nachweis_pct_restdeckung" />
+              </DataFields>
+              <ColumnDefinitions>
+                <Item1 Ref="43" Width="343.929" />
+                <Item2 Ref="44" Width="820.238" />
+                <Item3 Ref="45" Width="214.313" />
+                <Item4 Ref="46" Width="208.911" />
+              </ColumnDefinitions>
+              <RowDefinitions>
+                <Item1 Ref="47" Height="50.8" Visible="false" />
+                <Item2 Ref="48" Height="50.8" />
+                <Item3 Ref="49" Height="50.8" />
+                <Item4 Ref="50" Height="50.8" />
+                <Item5 Ref="51" Height="50.8" />
+                <Item6 Ref="52" Height="50.8" />
+              </RowDefinitions>
+              <Cells>
+                <Item1 Ref="53" ControlType="XRCrossTabCell" Name="crossTabHeaderCell1" Dpi="254" ColumnIndex="0" RowIndex="0" RowSpan="2" Text="Nachweis" Bookmark="Nachweis" BookmarkParent="#Ref-31" Font="Arial, 8pt, style=Bold" ForeColor="255,11,66,142" BackColor="255,214,220,228" />
+                <Item2 Ref="54" ControlType="XRCrossTabCell" Name="crossTabHeaderCell7" Dpi="254" ColumnIndex="1" RowIndex="0" RowSpan="2" Text="Details" Font="Arial, 8pt, style=Bold" ForeColor="255,11,66,142" BackColor="255,214,220,228" />
+                <Item3 Ref="55" ControlType="XRCrossTabCell" Name="crossTabHeaderCell5" Dpi="254" ColumnIndex="2" RowIndex="1" Text="Mio. €" TextAlignment="MiddleRight" Font="Arial, 8pt, style=Bold" ForeColor="255,11,66,142" BackColor="255,214,220,228" />
+                <Item4 Ref="56" ControlType="XRCrossTabCell" Name="crossTabHeaderCell6" Dpi="254" ColumnIndex="3" RowIndex="1" Text="%" TextAlignment="MiddleRight" Font="Arial, 8pt, style=Bold" ForeColor="255,11,66,142" BackColor="255,214,220,228" />
+                <Item5 Ref="57" ControlType="XRCrossTabCell" Name="crossTabDataCell1" Dpi="254" TextFormatString="{0:#,##0,,.0}" ColumnIndex="2" RowIndex="3" />
+                <Item6 Ref="58" ControlType="XRCrossTabCell" Name="crossTabDataCell2" Dpi="254" TextFormatString="{0:0.00%}" ColumnIndex="3" RowIndex="3" />
+                <Item7 Ref="59" ControlType="XRCrossTabCell" Name="crossTabHeaderCell2" Dpi="254" ColumnIndex="2" RowIndex="0" ColumnSpan="2" Font="Arial, 8pt, style=Bold" ForeColor="255,11,66,142" BackColor="255,214,220,228" />
+                <Item8 Ref="60" ControlType="XRCrossTabCell" Name="crossTabHeaderCell3" Dpi="254" ColumnIndex="0" RowIndex="2" ColumnSpan="2" Font="Arial, 8pt, style=Bold" />
+                <Item9 Ref="61" ControlType="XRCrossTabCell" Name="crossTabHeaderCell8" Dpi="254" ColumnIndex="1" RowIndex="3" />
+                <Item10 Ref="62" ControlType="XRCrossTabCell" Name="crossTabHeaderCell9" Dpi="254" TextFormatString="Total {0}" ColumnIndex="1" RowIndex="4" Text="Gesamt" Font="Arial, 8pt, style=Bold" ForeColor="255,11,66,142" />
+                <Item11 Ref="63" ControlType="XRCrossTabCell" Name="crossTabHeaderCell4" Dpi="254" ColumnIndex="0" RowIndex="5" ColumnSpan="2" Text="Gesamt" Font="Arial, 8pt, style=Bold" ForeColor="255,11,66,142" Borders="Bottom" BorderDashStyle="Double" />
+                <Item12 Ref="64" ControlType="XRCrossTabCell" Name="crossTabTotalCell3" Dpi="254" TextFormatString="{0:#,##0,,.0}" ColumnIndex="2" RowIndex="4" />
+                <Item13 Ref="65" ControlType="XRCrossTabCell" Name="crossTabTotalCell4" Dpi="254" TextFormatString="{0:0.00%}" ColumnIndex="3" RowIndex="4" />
+                <Item14 Ref="66" ControlType="XRCrossTabCell" Name="crossTabTotalCell1" Dpi="254" TextFormatString="{0:#,##0,,.0}" ColumnIndex="2" RowIndex="5" Borders="Bottom" BorderDashStyle="Double" />
+                <Item15 Ref="67" ControlType="XRCrossTabCell" Name="crossTabTotalCell2" Dpi="254" TextFormatString="{0:0.00%}" ColumnIndex="3" RowIndex="5" Borders="Bottom" BorderDashStyle="Double" />
+                <Item16 Ref="68" ControlType="XRCrossTabCell" Name="crossTabCell1" Dpi="254" ColumnIndex="2" RowIndex="2" ColumnSpan="2" />
+                <Item17 Ref="69" ControlType="XRCrossTabCell" Name="crossTabCell2" Dpi="254" ColumnIndex="0" RowIndex="3" RowSpan="2" Borders="Bottom" />
+              </Cells>
+            </Item1>
+          </Controls>
+        </Item1>
+        <Item2 Ref="70" ControlType="SubBand" Name="SubBandRestlaufzeit" Dpi="254" HeightF="355.6" KeepTogether="true">
+          <Controls>
+            <Item1 Ref="71" ControlType="XRCrossTab" Name="crossTabRestlaufzeit" Dpi="254" GeneralStyleName="crossTabGeneralStyle1" DataAreaStyleName="crossTabDataStyle1" HeaderAreaStyleName="crossTabHeaderStyle1" TotalAreaStyleName="crossTabTotalStyle1" DataSource="#Ref-0" DataMember="Restlaufzeit" SizeF="1584.745,228.6" LocationFloat="0,0">
+              <RowFields>
+                <Item1 Ref="72" SortOrder="None" FieldName="txs_cashflow__booking_bucket_restlaufzeit_bucket" />
+              </RowFields>
+              <DataFields>
+                <Item1 Ref="73" FieldName="txs_cashflow__abs_sum_tilgung_nominal" />
+                <Item2 Ref="74" FieldName="Restlaufzeit_pct_tilgung_nominal" />
+              </DataFields>
+              <ColumnDefinitions>
+                <Item1 Ref="75" Width="1161.521" />
+                <Item2 Ref="76" Width="214.313" />
+                <Item3 Ref="77" Width="208.911" />
+              </ColumnDefinitions>
+              <RowDefinitions>
+                <Item1 Ref="78" Height="50.8" Visible="false" />
+                <Item2 Ref="79" Height="50.8" />
+                <Item3 Ref="80" Height="63.5" />
+                <Item4 Ref="81" Height="63.5" />
+              </RowDefinitions>
+              <Cells>
+                <Item1 Ref="82" ControlType="XRCrossTabCell" Name="crossTabHeaderCell10" Dpi="254" ColumnIndex="0" RowIndex="0" RowSpan="2" Text="Restlaufzeit" Bookmark="Restlaufzeit" BookmarkParent="#Ref-31" Font="Arial, 8pt, style=Bold" ForeColor="255,11,66,142" BackColor="255,214,220,228" />
+                <Item2 Ref="83" ControlType="XRCrossTabCell" Name="crossTabHeaderCell14" Dpi="254" ColumnIndex="1" RowIndex="1" Text="Mio. €" TextAlignment="MiddleRight" Font="Arial, 8pt, style=Bold" ForeColor="255,11,66,142" BackColor="255,214,220,228" />
+                <Item3 Ref="84" ControlType="XRCrossTabCell" Name="crossTabHeaderCell15" Dpi="254" ColumnIndex="2" RowIndex="1" Text="%" TextAlignment="MiddleRight" Font="Arial, 8pt, style=Bold" ForeColor="255,11,66,142" BackColor="255,214,220,228" />
+                <Item4 Ref="85" ControlType="XRCrossTabCell" Name="crossTabDataCell3" Dpi="254" TextFormatString="{0:#,##0,,.0}" ColumnIndex="1" RowIndex="2" />
+                <Item5 Ref="86" ControlType="XRCrossTabCell" Name="crossTabDataCell4" Dpi="254" TextFormatString="{0:0.00%}" ColumnIndex="2" RowIndex="2" />
+                <Item6 Ref="87" ControlType="XRCrossTabCell" Name="crossTabHeaderCell11" Dpi="254" ColumnIndex="1" RowIndex="0" ColumnSpan="2" Font="Arial, 8pt, style=Bold" ForeColor="255,11,66,142" BackColor="255,214,220,228" />
+                <Item7 Ref="88" ControlType="XRCrossTabCell" Name="crossTabHeaderCell12" Dpi="254" ColumnIndex="0" RowIndex="2" />
+                <Item8 Ref="89" ControlType="XRCrossTabCell" Name="crossTabHeaderCell13" Dpi="254" ColumnIndex="0" RowIndex="3" Text="Gesamt" Font="Arial, 8pt, style=Bold" ForeColor="255,11,66,142" Borders="Bottom" BorderDashStyle="Double" />
+                <Item9 Ref="90" ControlType="XRCrossTabCell" Name="crossTabTotalCell5" Dpi="254" TextFormatString="{0:#,##0,,.0}" ColumnIndex="1" RowIndex="3" Borders="Bottom" BorderDashStyle="Double" />
+                <Item10 Ref="91" ControlType="XRCrossTabCell" Name="crossTabTotalCell6" Dpi="254" TextFormatString="{0:0.00%}" ColumnIndex="2" RowIndex="3" Borders="Bottom" BorderDashStyle="Double" />
+              </Cells>
+            </Item1>
+          </Controls>
+        </Item2>
+        <Item3 Ref="92" ControlType="SubBand" Name="SubBandLand" Dpi="254" HeightF="355.6" KeepTogether="true">
+          <Controls>
+            <Item1 Ref="93" ControlType="XRCrossTab" Name="crossTabLand" Dpi="254" GeneralStyleName="crossTabGeneralStyle1" DataAreaStyleName="crossTabDataStyle1" HeaderAreaStyleName="crossTabHeaderStyle1" TotalAreaStyleName="crossTabTotalStyle1" DataSource="#Ref-0" DataMember="Land" SizeF="1584.745,228.6" LocationFloat="0,0">
+              <RowFields>
+                <Item1 Ref="94" SortOrder="None" FieldName="txs_risiko__TxsRegion_land" />
+              </RowFields>
+              <DataFields>
+                <Item1 Ref="95" FieldName="txs_risiko__sum_restdeckung" />
+                <Item2 Ref="96" FieldName="txs_risiko__pct_restdeckung_land" />
+              </DataFields>
+              <ColumnDefinitions>
+                <Item1 Ref="97" Width="1161.521" />
+                <Item2 Ref="98" Width="214.313" />
+                <Item3 Ref="99" Width="208.911" />
+              </ColumnDefinitions>
+              <RowDefinitions>
+                <Item1 Ref="100" Height="50.8" Visible="false" />
+                <Item2 Ref="101" Height="50.8" />
+                <Item3 Ref="102" Height="63.5" />
+                <Item4 Ref="103" Height="63.5" />
+              </RowDefinitions>
+              <Cells>
+                <Item1 Ref="104" ControlType="XRCrossTabCell" Name="crossTabHeaderCell16" Dpi="254" ColumnIndex="0" RowIndex="0" RowSpan="2" Text="Land" Bookmark="Land" BookmarkParent="#Ref-31" Font="Arial, 8pt, style=Bold" ForeColor="255,11,66,142" BackColor="255,214,220,228" />
+                <Item2 Ref="105" ControlType="XRCrossTabCell" Name="crossTabHeaderCell17" Dpi="254" ColumnIndex="1" RowIndex="1" Text="Mio. €" TextAlignment="MiddleRight" Font="Arial, 8pt, style=Bold" ForeColor="255,11,66,142" BackColor="255,214,220,228" />
+                <Item3 Ref="106" ControlType="XRCrossTabCell" Name="crossTabHeaderCell18" Dpi="254" ColumnIndex="2" RowIndex="1" Text="%" TextAlignment="MiddleRight" Font="Arial, 8pt, style=Bold" ForeColor="255,11,66,142" BackColor="255,214,220,228" />
+                <Item4 Ref="107" ControlType="XRCrossTabCell" Name="crossTabDataCell5" Dpi="254" TextFormatString="{0:#,##0,,.0}" ColumnIndex="1" RowIndex="2" />
+                <Item5 Ref="108" ControlType="XRCrossTabCell" Name="crossTabDataCell6" Dpi="254" TextFormatString="{0:0.00%}" ColumnIndex="2" RowIndex="2" />
+                <Item6 Ref="109" ControlType="XRCrossTabCell" Name="crossTabHeaderCell19" Dpi="254" ColumnIndex="1" RowIndex="0" ColumnSpan="2" Font="Arial, 8pt, style=Bold" ForeColor="255,11,66,142" BackColor="255,214,220,228" />
+                <Item7 Ref="110" ControlType="XRCrossTabCell" Name="crossTabHeaderCell20" Dpi="254" ColumnIndex="0" RowIndex="2" />
+                <Item8 Ref="111" ControlType="XRCrossTabCell" Name="crossTabHeaderCell21" Dpi="254" ColumnIndex="0" RowIndex="3" Text="Gesamt" Font="Arial, 8pt, style=Bold" ForeColor="255,11,66,142" Borders="Bottom" BorderDashStyle="Double" />
+                <Item9 Ref="112" ControlType="XRCrossTabCell" Name="crossTabTotalCell7" Dpi="254" TextFormatString="{0:#,##0,,.0}" ColumnIndex="1" RowIndex="3" Borders="Bottom" BorderDashStyle="Double" />
+                <Item10 Ref="113" ControlType="XRCrossTabCell" Name="crossTabTotalCell8" Dpi="254" TextFormatString="{0:0.00%}" ColumnIndex="2" RowIndex="3" Borders="Bottom" BorderDashStyle="Double" />
+              </Cells>
+            </Item1>
+          </Controls>
+        </Item3>
+        <Item4 Ref="114" ControlType="SubBand" Name="SubBandImmobiliennutzung" Dpi="254" HeightF="355.6" KeepTogether="true">
+          <Controls>
+            <Item1 Ref="115" ControlType="XRCrossTab" Name="crossTabImmobiliennutzung" Dpi="254" GeneralStyleName="crossTabGeneralStyle1" DataAreaStyleName="crossTabDataStyle1" HeaderAreaStyleName="crossTabHeaderStyle1" TotalAreaStyleName="crossTabTotalStyle1" DataSource="#Ref-0" DataMember="Immobiliennutzung" SizeF="1584.745,228.6" LocationFloat="0,0">
+              <RowFields>
+                <Item1 Ref="116" SortOrder="None" FieldName="txs_risiko__SusNutzungseinheit_nutzungskategorie" />
+              </RowFields>
+              <DataFields>
+                <Item1 Ref="117" FieldName="txs_risiko__sum_restdeckung" />
+                <Item2 Ref="118" FieldName="Immobiliennutzung_pct_restdeckung" />
+              </DataFields>
+              <ColumnDefinitions>
+                <Item1 Ref="119" Width="1161.521" />
+                <Item2 Ref="120" Width="214.313" />
+                <Item3 Ref="121" Width="208.911" />
+              </ColumnDefinitions>
+              <RowDefinitions>
+                <Item1 Ref="122" Height="50.8" Visible="false" />
+                <Item2 Ref="123" Height="50.8" />
+                <Item3 Ref="124" Height="63.5" />
+                <Item4 Ref="125" Height="63.5" />
+              </RowDefinitions>
+              <Cells>
+                <Item1 Ref="126" ControlType="XRCrossTabCell" Name="crossTabHeaderCell22" Dpi="254" ColumnIndex="0" RowIndex="0" RowSpan="2" Text="Immobiliennutzung" Bookmark="Immobiliennutzung" BookmarkParent="#Ref-31" Font="Arial, 8pt, style=Bold" ForeColor="255,11,66,142" BackColor="255,214,220,228" />
+                <Item2 Ref="127" ControlType="XRCrossTabCell" Name="crossTabHeaderCell23" Dpi="254" ColumnIndex="1" RowIndex="1" Text="Mio. €" TextAlignment="MiddleRight" Font="Arial, 8pt, style=Bold" ForeColor="255,11,66,142" BackColor="255,214,220,228" />
+                <Item3 Ref="128" ControlType="XRCrossTabCell" Name="crossTabHeaderCell24" Dpi="254" ColumnIndex="2" RowIndex="1" Text="%" TextAlignment="MiddleRight" Font="Arial, 8pt, style=Bold" ForeColor="255,11,66,142" BackColor="255,214,220,228" />
+                <Item4 Ref="129" ControlType="XRCrossTabCell" Name="crossTabDataCell7" Dpi="254" TextFormatString="{0:#,##0,,.0}" ColumnIndex="1" RowIndex="2" />
+                <Item5 Ref="130" ControlType="XRCrossTabCell" Name="crossTabDataCell8" Dpi="254" TextFormatString="{0:0.00%}" ColumnIndex="2" RowIndex="2" />
+                <Item6 Ref="131" ControlType="XRCrossTabCell" Name="crossTabHeaderCell25" Dpi="254" ColumnIndex="1" RowIndex="0" ColumnSpan="2" Font="Arial, 8pt, style=Bold" ForeColor="255,11,66,142" BackColor="255,214,220,228" />
+                <Item7 Ref="132" ControlType="XRCrossTabCell" Name="crossTabHeaderCell26" Dpi="254" ColumnIndex="0" RowIndex="2" />
+                <Item8 Ref="133" ControlType="XRCrossTabCell" Name="crossTabHeaderCell27" Dpi="254" ColumnIndex="0" RowIndex="3" Text="Gesamt" Font="Arial, 8pt, style=Bold" ForeColor="255,11,66,142" Borders="Bottom" BorderDashStyle="Double" />
+                <Item9 Ref="134" ControlType="XRCrossTabCell" Name="crossTabTotalCell9" Dpi="254" TextFormatString="{0:#,##0,,.0}" ColumnIndex="1" RowIndex="3" Borders="Bottom" BorderDashStyle="Double" />
+                <Item10 Ref="135" ControlType="XRCrossTabCell" Name="crossTabTotalCell10" Dpi="254" TextFormatString="{0:0.00%}" ColumnIndex="2" RowIndex="3" Borders="Bottom" BorderDashStyle="Double" />
+              </Cells>
+            </Item1>
+          </Controls>
+        </Item4>
+        <Item5 Ref="136" ControlType="SubBand" Name="SubBandGroessenklassen" Dpi="254" HeightF="355.6" KeepTogether="true">
+          <Controls>
+            <Item1 Ref="137" ControlType="XRCrossTab" Name="crossTabGroessenklassen" Dpi="254" GeneralStyleName="crossTabGeneralStyle1" DataAreaStyleName="crossTabDataStyle1" HeaderAreaStyleName="crossTabHeaderStyle1" TotalAreaStyleName="crossTabTotalStyle1" DataSource="#Ref-0" DataMember="Groessenklassen" SizeF="1584.745,228.6" LocationFloat="0,0">
+              <RowFields>
+                <Item1 Ref="138" SortOrder="None" FieldName="txs_risiko__TxsGroessenklassen_band_range_name" />
+              </RowFields>
+              <DataFields>
+                <Item1 Ref="139" FieldName="txs_risiko__Groessenklassen_sum_restdeckung" />
+                <Item2 Ref="140" FieldName="Groessenklassen_pct_restdeckung_finanzgeschaeft" />
+              </DataFields>
+              <ColumnDefinitions>
+                <Item1 Ref="141" Width="1161.521" />
+                <Item2 Ref="142" Width="214.313" />
+                <Item3 Ref="143" Width="208.911" />
+              </ColumnDefinitions>
+              <RowDefinitions>
+                <Item1 Ref="144" Height="50.8" Visible="false" />
+                <Item2 Ref="145" Height="50.8" />
+                <Item3 Ref="146" Height="63.5" />
+                <Item4 Ref="147" Height="63.5" />
+              </RowDefinitions>
+              <Cells>
+                <Item1 Ref="148" ControlType="XRCrossTabCell" Name="crossTabHeaderCell28" Dpi="254" ColumnIndex="0" RowIndex="0" RowSpan="2" Text="Größenklassen" Bookmark="Größenklassen" BookmarkParent="#Ref-31" Font="Arial, 8pt, style=Bold" ForeColor="255,11,66,142" BackColor="255,214,220,228" />
+                <Item2 Ref="149" ControlType="XRCrossTabCell" Name="crossTabHeaderCell29" Dpi="254" ColumnIndex="1" RowIndex="1" Text="Mio. €" TextAlignment="MiddleRight" Font="Arial, 8pt, style=Bold" ForeColor="255,11,66,142" BackColor="255,214,220,228" />
+                <Item3 Ref="150" ControlType="XRCrossTabCell" Name="crossTabHeaderCell30" Dpi="254" ColumnIndex="2" RowIndex="1" Text="%" TextAlignment="MiddleRight" Font="Arial, 8pt, style=Bold" ForeColor="255,11,66,142" BackColor="255,214,220,228" />
+                <Item4 Ref="151" ControlType="XRCrossTabCell" Name="crossTabDataCell9" Dpi="254" TextFormatString="{0:#,##0,,.0}" ColumnIndex="1" RowIndex="2" />
+                <Item5 Ref="152" ControlType="XRCrossTabCell" Name="crossTabDataCell10" Dpi="254" TextFormatString="{0:0.00%}" ColumnIndex="2" RowIndex="2" />
+                <Item6 Ref="153" ControlType="XRCrossTabCell" Name="crossTabHeaderCell31" Dpi="254" ColumnIndex="1" RowIndex="0" ColumnSpan="2" Font="Arial, 8pt, style=Bold" ForeColor="255,11,66,142" BackColor="255,214,220,228" />
+                <Item7 Ref="154" ControlType="XRCrossTabCell" Name="crossTabHeaderCell32" Dpi="254" ColumnIndex="0" RowIndex="2" />
+                <Item8 Ref="155" ControlType="XRCrossTabCell" Name="crossTabHeaderCell33" Dpi="254" ColumnIndex="0" RowIndex="3" Text="Gesamt" Font="Arial, 8pt, style=Bold" ForeColor="255,11,66,142" Borders="Bottom" BorderDashStyle="Double" />
+                <Item9 Ref="156" ControlType="XRCrossTabCell" Name="crossTabTotalCell11" Dpi="254" TextFormatString="{0:#,##0,,.0}" ColumnIndex="1" RowIndex="3" Borders="Bottom" BorderDashStyle="Double" />
+                <Item10 Ref="157" ControlType="XRCrossTabCell" Name="crossTabTotalCell12" Dpi="254" TextFormatString="{0:0.00%}" ColumnIndex="2" RowIndex="3" Borders="Bottom" BorderDashStyle="Double" />
+              </Cells>
+            </Item1>
+          </Controls>
+        </Item5>
+        <Item6 Ref="158" ControlType="SubBand" Name="SubBandGewichteteRestlaufzeit" Dpi="254" HeightF="304.8">
+          <Controls>
+            <Item1 Ref="159" ControlType="XRCrossTab" Name="crossTabGewichteteRestlaufzeit" Dpi="254" GeneralStyleName="crossTabGeneralStyle1" DataAreaStyleName="crossTabDataStyle1" HeaderAreaStyleName="crossTabHeaderStyle1" TotalAreaStyleName="crossTabTotalStyle1" DataSource="#Ref-0" DataMember="GewichteteRestlaufzeit" SizeF="1590.147,177.8" LocationFloat="0,0">
+              <RowFields>
+                <Item1 Ref="160" SortOrder="None" />
+              </RowFields>
+              <DataFields>
+                <Item1 Ref="161" FieldName="txs_cashflow__gewichtete_restlaufzeit" />
+              </DataFields>
+              <ColumnDefinitions>
+                <Item1 Ref="162" Width="1375.834" />
+                <Item2 Ref="163" Width="214.313" />
+              </ColumnDefinitions>
+              <RowDefinitions>
+                <Item1 Ref="164" Height="50.8" />
+                <Item2 Ref="165" Height="63.5" />
+                <Item3 Ref="166" Height="63.5" Visible="false" />
+              </RowDefinitions>
+              <Cells>
+                <Item1 Ref="167" ControlType="XRCrossTabCell" Name="crossTabHeaderCell52" Dpi="254" ColumnIndex="0" RowIndex="0" Text="Volumengewichtete RLZ in Jahren" Bookmark="Volumengewichtete RLZ in Jahren" BookmarkParent="#Ref-31" Font="Arial, 8pt, style=Bold" ForeColor="255,11,66,142" BackColor="255,214,220,228" />
+                <Item2 Ref="168" ControlType="XRCrossTabCell" Name="crossTabDataCell17" Dpi="254" TextFormatString="{0:n1}" ColumnIndex="1" RowIndex="1" />
+                <Item3 Ref="169" ControlType="XRCrossTabCell" Name="crossTabHeaderCell55" Dpi="254" ColumnIndex="1" RowIndex="0" Font="Arial, 8pt, style=Bold" ForeColor="255,11,66,142" BackColor="255,214,220,228" />
+                <Item4 Ref="170" ControlType="XRCrossTabCell" Name="crossTabHeaderCell56" Dpi="254" NullValueText="In Deckung" ColumnIndex="0" RowIndex="1" />
+                <Item5 Ref="171" ControlType="XRCrossTabCell" Name="crossTabHeaderCell57" Dpi="254" ColumnIndex="0" RowIndex="2" Text="Gesamt" Font="Arial, 8pt, style=Bold" ForeColor="255,11,66,142" Borders="Bottom" BorderDashStyle="Double" />
+                <Item6 Ref="172" ControlType="XRCrossTabCell" Name="crossTabTotalCell19" Dpi="254" TextFormatString="{0:#,##0,,.0}" ColumnIndex="1" RowIndex="2" Borders="Bottom" BorderDashStyle="Double" />
+              </Cells>
+            </Item1>
+          </Controls>
+        </Item6>
+        <Item7 Ref="173" ControlType="SubBand" Name="SubBandEntfernungOEPNV" Dpi="254" HeightF="355.6" KeepTogether="true">
+          <Controls>
+            <Item1 Ref="174" ControlType="XRCrossTab" Name="crossTabEntfernungOEPNV" Dpi="254" GeneralStyleName="crossTabGeneralStyle1" DataAreaStyleName="crossTabDataStyle1" HeaderAreaStyleName="crossTabHeaderStyle1" TotalAreaStyleName="crossTabTotalStyle1" DataSource="#Ref-0" DataMember="EntfernungOEPNV" SizeF="1584.745,228.6" LocationFloat="0,0">
+              <RowFields>
+                <Item1 Ref="175" SortOrder="None" FieldName="txs_risiko__SusPfandobjekt_distance_to_public_transport_group" />
+              </RowFields>
+              <DataFields>
+                <Item1 Ref="176" FieldName="txs_risiko__sum_restdeckung" />
+                <Item2 Ref="177" FieldName="EntfernungOEPNV_pct_restdeckung" />
+              </DataFields>
+              <ColumnDefinitions>
+                <Item1 Ref="178" Width="1161.521" />
+                <Item2 Ref="179" Width="214.313" />
+                <Item3 Ref="180" Width="208.911" />
+              </ColumnDefinitions>
+              <RowDefinitions>
+                <Item1 Ref="181" Height="50.8" Visible="false" />
+                <Item2 Ref="182" Height="50.8" />
+                <Item3 Ref="183" Height="63.5" />
+                <Item4 Ref="184" Height="63.5" />
+              </RowDefinitions>
+              <Cells>
+                <Item1 Ref="185" ControlType="XRCrossTabCell" Name="crossTabHeaderCell34" Dpi="254" ColumnIndex="0" RowIndex="0" RowSpan="2" Text="Entfernung ÖPNV Gruppe" Bookmark="Entfernung ÖPNV Gruppe" BookmarkParent="#Ref-31" Font="Arial, 8pt, style=Bold" ForeColor="255,11,66,142" BackColor="255,214,220,228" />
+                <Item2 Ref="186" ControlType="XRCrossTabCell" Name="crossTabHeaderCell35" Dpi="254" ColumnIndex="1" RowIndex="1" Text="Mio. €" TextAlignment="MiddleRight" Font="Arial, 8pt, style=Bold" ForeColor="255,11,66,142" BackColor="255,214,220,228" />
+                <Item3 Ref="187" ControlType="XRCrossTabCell" Name="crossTabHeaderCell36" Dpi="254" ColumnIndex="2" RowIndex="1" Text="%" TextAlignment="MiddleRight" Font="Arial, 8pt, style=Bold" ForeColor="255,11,66,142" BackColor="255,214,220,228" />
+                <Item4 Ref="188" ControlType="XRCrossTabCell" Name="crossTabDataCell11" Dpi="254" TextFormatString="{0:#,##0,,.0}" ColumnIndex="1" RowIndex="2" />
+                <Item5 Ref="189" ControlType="XRCrossTabCell" Name="crossTabDataCell12" Dpi="254" TextFormatString="{0:0.00%}" ColumnIndex="2" RowIndex="2" />
+                <Item6 Ref="190" ControlType="XRCrossTabCell" Name="crossTabHeaderCell37" Dpi="254" ColumnIndex="1" RowIndex="0" ColumnSpan="2" Font="Arial, 8pt, style=Bold" ForeColor="255,11,66,142" BackColor="255,214,220,228" />
+                <Item7 Ref="191" ControlType="XRCrossTabCell" Name="crossTabHeaderCell38" Dpi="254" ColumnIndex="0" RowIndex="2" />
+                <Item8 Ref="192" ControlType="XRCrossTabCell" Name="crossTabHeaderCell39" Dpi="254" ColumnIndex="0" RowIndex="3" Text="Gesamt" Font="Arial, 8pt, style=Bold" ForeColor="255,11,66,142" Borders="Bottom" BorderDashStyle="Double" />
+                <Item9 Ref="193" ControlType="XRCrossTabCell" Name="crossTabTotalCell13" Dpi="254" TextFormatString="{0:#,##0,,.0}" ColumnIndex="1" RowIndex="3" Borders="Bottom" BorderDashStyle="Double" />
+                <Item10 Ref="194" ControlType="XRCrossTabCell" Name="crossTabTotalCell14" Dpi="254" TextFormatString="{0:0.00%}" ColumnIndex="2" RowIndex="3" Borders="Bottom" BorderDashStyle="Double" />
+              </Cells>
+            </Item1>
+          </Controls>
+        </Item7>
+        <Item8 Ref="195" ControlType="SubBand" Name="SubBandBodenart" Dpi="254" HeightF="355.6" KeepTogether="true">
+          <Controls>
+            <Item1 Ref="196" ControlType="XRCrossTab" Name="crossTabBodenart" Dpi="254" GeneralStyleName="crossTabGeneralStyle1" DataAreaStyleName="crossTabDataStyle1" HeaderAreaStyleName="crossTabHeaderStyle1" TotalAreaStyleName="crossTabTotalStyle1" DataSource="#Ref-0" DataMember="Bodenart" SizeF="1584.745,228.6" LocationFloat="0,0">
+              <RowFields>
+                <Item1 Ref="197" SortOrder="None" FieldName="txs_risiko__SusPfandobjekt_building_development" />
+              </RowFields>
+              <DataFields>
+                <Item1 Ref="198" FieldName="txs_risiko__sum_restdeckung" />
+                <Item2 Ref="199" FieldName="Bodenart_pct_restdeckung" />
+              </DataFields>
+              <ColumnDefinitions>
+                <Item1 Ref="200" Width="1161.521" />
+                <Item2 Ref="201" Width="214.313" />
+                <Item3 Ref="202" Width="208.911" />
+              </ColumnDefinitions>
+              <RowDefinitions>
+                <Item1 Ref="203" Height="50.8" Visible="false" />
+                <Item2 Ref="204" Height="50.8" />
+                <Item3 Ref="205" Height="63.5" />
+                <Item4 Ref="206" Height="63.5" />
+              </RowDefinitions>
+              <Cells>
+                <Item1 Ref="207" ControlType="XRCrossTabCell" Name="crossTabHeaderCell40" Dpi="254" ColumnIndex="0" RowIndex="0" RowSpan="2" Text="Bodenart" Bookmark="Bodenart" BookmarkParent="#Ref-31" Font="Arial, 8pt, style=Bold" ForeColor="255,11,66,142" BackColor="255,214,220,228" />
+                <Item2 Ref="208" ControlType="XRCrossTabCell" Name="crossTabHeaderCell41" Dpi="254" ColumnIndex="1" RowIndex="1" Text="Mio. €" TextAlignment="MiddleRight" Font="Arial, 8pt, style=Bold" ForeColor="255,11,66,142" BackColor="255,214,220,228" />
+                <Item3 Ref="209" ControlType="XRCrossTabCell" Name="crossTabHeaderCell42" Dpi="254" ColumnIndex="2" RowIndex="1" Text="%" TextAlignment="MiddleRight" Font="Arial, 8pt, style=Bold" ForeColor="255,11,66,142" BackColor="255,214,220,228" />
+                <Item4 Ref="210" ControlType="XRCrossTabCell" Name="crossTabDataCell13" Dpi="254" TextFormatString="{0:#,##0,,.0}" ColumnIndex="1" RowIndex="2" />
+                <Item5 Ref="211" ControlType="XRCrossTabCell" Name="crossTabDataCell14" Dpi="254" TextFormatString="{0:0.00%}" ColumnIndex="2" RowIndex="2" />
+                <Item6 Ref="212" ControlType="XRCrossTabCell" Name="crossTabHeaderCell43" Dpi="254" ColumnIndex="1" RowIndex="0" ColumnSpan="2" Font="Arial, 8pt, style=Bold" ForeColor="255,11,66,142" BackColor="255,214,220,228" />
+                <Item7 Ref="213" ControlType="XRCrossTabCell" Name="crossTabHeaderCell44" Dpi="254" ColumnIndex="0" RowIndex="2" />
+                <Item8 Ref="214" ControlType="XRCrossTabCell" Name="crossTabHeaderCell45" Dpi="254" ColumnIndex="0" RowIndex="3" Text="Gesamt" Font="Arial, 8pt, style=Bold" ForeColor="255,11,66,142" Borders="Bottom" BorderDashStyle="Double" />
+                <Item9 Ref="215" ControlType="XRCrossTabCell" Name="crossTabTotalCell15" Dpi="254" TextFormatString="{0:#,##0,,.0}" ColumnIndex="1" RowIndex="3" Borders="Bottom" BorderDashStyle="Double" />
+                <Item10 Ref="216" ControlType="XRCrossTabCell" Name="crossTabTotalCell16" Dpi="254" TextFormatString="{0:0.00%}" ColumnIndex="2" RowIndex="3" Borders="Bottom" BorderDashStyle="Double" />
+              </Cells>
+            </Item1>
+          </Controls>
+        </Item8>
+        <Item9 Ref="217" ControlType="SubBand" Name="SubBandNachhaltigkeitKreditzweck" Dpi="254" HeightF="355.6" KeepTogether="true">
+          <Controls>
+            <Item1 Ref="218" ControlType="XRCrossTab" Name="crossTabNachhaltigkeitKreditzweck" Dpi="254" GeneralStyleName="crossTabGeneralStyle1" DataAreaStyleName="crossTabDataStyle1" HeaderAreaStyleName="crossTabHeaderStyle1" TotalAreaStyleName="crossTabTotalStyle1" DataSource="#Ref-0" DataMember="NachhaltigkeitKreditzweck" SizeF="1584.745,228.6" LocationFloat="0,0">
+              <RowFields>
+                <Item1 Ref="219" SortOrder="None" FieldName="txs_risiko__TxsGeschaeftskategorie_nachhaltigkeitart" />
+              </RowFields>
+              <DataFields>
+                <Item1 Ref="220" FieldName="txs_risiko__sum_restdeckung" />
+                <Item2 Ref="221" FieldName="NachhaltigkeitKreditzweck_pct_restdeckung" />
+              </DataFields>
+              <ColumnDefinitions>
+                <Item1 Ref="222" Width="1161.521" />
+                <Item2 Ref="223" Width="214.313" />
+                <Item3 Ref="224" Width="208.911" />
+              </ColumnDefinitions>
+              <RowDefinitions>
+                <Item1 Ref="225" Height="50.8" Visible="false" />
+                <Item2 Ref="226" Height="50.8" />
+                <Item3 Ref="227" Height="63.5" />
+                <Item4 Ref="228" Height="63.5" />
+              </RowDefinitions>
+              <Cells>
+                <Item1 Ref="229" ControlType="XRCrossTabCell" Name="crossTabHeaderCell46" Dpi="254" ColumnIndex="0" RowIndex="0" RowSpan="2" Text="Nachhaltigkeit Kreditzweck" Bookmark="Nachhaltigkeit Kreditzweck" BookmarkParent="#Ref-31" Font="Arial, 8pt, style=Bold" ForeColor="255,11,66,142" BackColor="255,214,220,228" />
+                <Item2 Ref="230" ControlType="XRCrossTabCell" Name="crossTabHeaderCell47" Dpi="254" ColumnIndex="1" RowIndex="1" Text="Mio. €" TextAlignment="MiddleRight" Font="Arial, 8pt, style=Bold" ForeColor="255,11,66,142" BackColor="255,214,220,228" />
+                <Item3 Ref="231" ControlType="XRCrossTabCell" Name="crossTabHeaderCell48" Dpi="254" ColumnIndex="2" RowIndex="1" Text="%" TextAlignment="MiddleRight" Font="Arial, 8pt, style=Bold" ForeColor="255,11,66,142" BackColor="255,214,220,228" />
+                <Item4 Ref="232" ControlType="XRCrossTabCell" Name="crossTabDataCell15" Dpi="254" TextFormatString="{0:#,##0,,.0}" ColumnIndex="1" RowIndex="2" />
+                <Item5 Ref="233" ControlType="XRCrossTabCell" Name="crossTabDataCell16" Dpi="254" TextFormatString="{0:0.00%}" ColumnIndex="2" RowIndex="2" />
+                <Item6 Ref="234" ControlType="XRCrossTabCell" Name="crossTabHeaderCell49" Dpi="254" ColumnIndex="1" RowIndex="0" ColumnSpan="2" Font="Arial, 8pt, style=Bold" ForeColor="255,11,66,142" BackColor="255,214,220,228" />
+                <Item7 Ref="235" ControlType="XRCrossTabCell" Name="crossTabHeaderCell50" Dpi="254" ColumnIndex="0" RowIndex="2" />
+                <Item8 Ref="236" ControlType="XRCrossTabCell" Name="crossTabHeaderCell51" Dpi="254" ColumnIndex="0" RowIndex="3" Text="Gesamt" Font="Arial, 8pt, style=Bold" ForeColor="255,11,66,142" Borders="Bottom" BorderDashStyle="Double" />
+                <Item9 Ref="237" ControlType="XRCrossTabCell" Name="crossTabTotalCell17" Dpi="254" TextFormatString="{0:#,##0,,.0}" ColumnIndex="1" RowIndex="3" Borders="Bottom" BorderDashStyle="Double" />
+                <Item10 Ref="238" ControlType="XRCrossTabCell" Name="crossTabTotalCell18" Dpi="254" TextFormatString="{0:0.00%}" ColumnIndex="2" RowIndex="3" Borders="Bottom" BorderDashStyle="Double" />
+              </Cells>
+            </Item1>
+          </Controls>
+        </Item9>
+      </SubBands>
+    </Item4>
+    <Item5 Ref="239" ControlType="DetailReportBand" Name="DetailImpact" Dpi="254" Level="0" PageBreak="BeforeBand">
+      <Bands>
+        <Item1 Ref="240" ControlType="ReportHeaderBand" Name="ReportHeader1" Dpi="254" HeightF="5">
+          <Controls>
+            <Item1 Ref="241" ControlType="XRLabel" Name="ImpactLabel" Dpi="254" CanGrow="false" TextTrimming="EllipsisWord" Text="Impact" TextAlignment="MiddleLeft" Bookmark="Impact" SizeF="1582.1091,5" LocationFloat="0,0" Font="Arial, 12pt" ForeColor="Transparent" BackColor="0,70,117,148" Padding="5.08,5.08,0,0,254" BorderColor="0,0,0,0">
+              <ExpressionBindings>
+                <Item1 Ref="242" EventName="BeforePrint" PropertyName="BackColor" Expression="rgb(66, 107, 137)" />
+              </ExpressionBindings>
+              <StylePriority Ref="243" UseFont="false" UseForeColor="false" UseBackColor="false" UsePadding="false" UseBorderColor="false" UseTextAlignment="false" />
+            </Item1>
+          </Controls>
+        </Item1>
+        <Item2 Ref="244" ControlType="DetailBand" Name="Detail1" Dpi="254" HeightF="2203.2">
+          <Controls>
+            <Item1 Ref="245" ControlType="XRTable" Name="AnleiheUndPortfolioTable" Dpi="254" SizeF="1587.391,203.2" LocationFloat="0,0" StyleName="tableGeneralStyle" Padding="5.08,5.08,0,0,254">
+              <Rows>
+                <Item1 Ref="246" ControlType="XRTableRow" Name="tableRow1" Dpi="254" Weight="0.7999999999999999" StyleName="tableHeaderStyle" Font="Arial, 8pt, style=Bold">
+                  <Cells>
+                    <Item1 Ref="247" ControlType="XRTableCell" Name="tableCell3" Dpi="254" Weight="3.000001447247062" Multiline="true" Text="Anleihe- und Portfoliodaten" Bookmark="Anleihe- und Portfoliodaten" BookmarkParent="#Ref-241" />
+                  </Cells>
+                  <StylePriority Ref="248" UseFont="false" />
+                </Item1>
+                <Item2 Ref="249" ControlType="XRTableRow" Name="tableRow2" Dpi="254" Weight="0.7999999999999999">
+                  <Cells>
+                    <Item1 Ref="250" ControlType="XRTableCell" Name="tableCell1" Dpi="254" Weight="2.5905195155112826" Multiline="true" Text="Ausstehenden Anlagevolumen in Mio. €" StyleName="tableColHeaderStyle" />
+                    <Item2 Ref="251" ControlType="XRTableCell" Name="tableCell2" Dpi="254" Weight="0.4094819317357795" TextFormatString="{0:#,##0,,.0}" Multiline="true" Text="tableCell2" TextAlignment="MiddleRight">
+                      <ExpressionBindings>
+                        <Item1 Ref="252" EventName="BeforePrint" PropertyName="Text" Expression="[ImpactAnleiheDaten.txs_risiko_passiv__sum_restkapital]" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="253" UseTextAlignment="false" />
+                    </Item2>
+                  </Cells>
+                </Item2>
+                <Item3 Ref="254" ControlType="XRTableRow" Name="tableRow3" Dpi="254" Weight="0.7999999999999999">
+                  <Cells>
+                    <Item1 Ref="255" ControlType="XRTableCell" Name="tableCell4" Dpi="254" Weight="2.5905188906578824" Multiline="true" Text="Ausstehenden Kreditvolumen (Portfolio) in Mio. €" StyleName="tableColHeaderStyle" />
+                    <Item2 Ref="256" ControlType="XRTableCell" Name="tableCell5" Dpi="254" Weight="0.40948183296556123" TextFormatString="{0:#,##0,,.0}" Multiline="true" Text="tableCell5" TextAlignment="MiddleRight">
+                      <ExpressionBindings>
+                        <Item1 Ref="257" EventName="BeforePrint" PropertyName="Text" Expression="[ImpactPortfolioDaten.txs_risiko__sum_restdeckung]" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="258" UseTextAlignment="false" />
+                    </Item2>
+                  </Cells>
+                </Item3>
+                <Item4 Ref="259" ControlType="XRTableRow" Name="tableRow4" Dpi="254" Weight="0.7999999999999999">
+                  <Cells>
+                    <Item1 Ref="260" ControlType="XRTableCell" Name="tableCell6" Dpi="254" Weight="2.5905188906578824" Multiline="true" Text="Institutanteil an der Gesamfinanzierungssumme" StyleName="tableColHeaderStyle" />
+                    <Item2 Ref="261" ControlType="XRTableCell" Name="tableCell7" Dpi="254" Weight="0.40948183296556123" TextFormatString="{0:0.00%}" Multiline="true" Text="tableCell7" TextAlignment="MiddleRight">
+                      <ExpressionBindings>
+                        <Item1 Ref="262" EventName="BeforePrint" PropertyName="Text" Expression="[ImpactPortfolioDaten.txs_risiko__sum_gewichteter_institutsanteil] / 100" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="263" UseTextAlignment="false" />
+                    </Item2>
+                  </Cells>
+                </Item4>
+              </Rows>
+              <StylePriority Ref="264" UsePadding="false" />
+            </Item1>
+            <Item2 Ref="265" ControlType="XRTable" Name="PfandobjektTable" Dpi="254" SizeF="1587.391,152.4" LocationFloat="0,330.2" StyleName="tableGeneralStyle" Padding="5.08,5.08,0,0,254">
+              <Rows>
+                <Item1 Ref="266" ControlType="XRTableRow" Name="tableRow5" Dpi="254" Weight="0.7999999999999999" StyleName="tableHeaderStyle" Font="Arial, 8pt, style=Bold">
+                  <Cells>
+                    <Item1 Ref="267" ControlType="XRTableCell" Name="tableCell8" Dpi="254" Weight="3.000001447247062" Multiline="true" Text="Pfandobjektdaten" Bookmark="Pfandobjektdaten" BookmarkParent="#Ref-241" />
+                  </Cells>
+                  <StylePriority Ref="268" UseFont="false" />
+                </Item1>
+                <Item2 Ref="269" ControlType="XRTableRow" Name="tableRow6" Dpi="254" Weight="0.7999999999999999">
+                  <Cells>
+                    <Item1 Ref="270" ControlType="XRTableCell" Name="tableCell9" Dpi="254" Weight="2.5905195155112826" Multiline="true" Text="Anzahl Pfandobjekte" StyleName="tableColHeaderStyle" />
+                    <Item2 Ref="271" ControlType="XRTableCell" Name="tableCell10" Dpi="254" Weight="0.4094819317357795" TextFormatString="{0:n1}" Multiline="true" Text="tableCell2" TextAlignment="MiddleRight">
+                      <ExpressionBindings>
+                        <Item1 Ref="272" EventName="BeforePrint" PropertyName="Text" Expression="[ImpactPortfolioDaten.txs_risiko__anz_pfandobjekte]" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="273" UseTextAlignment="false" />
+                    </Item2>
+                  </Cells>
+                </Item2>
+                <Item3 Ref="274" ControlType="XRTableRow" Name="tableRow7" Dpi="254" Weight="0.7999999999999999">
+                  <Cells>
+                    <Item1 Ref="275" ControlType="XRTableCell" Name="tableCell11" Dpi="254" Weight="2.5905188906578824" Multiline="true" Text="Gesamtfläche Pfandobjekte (in m²)" StyleName="tableColHeaderStyle" />
+                    <Item2 Ref="276" ControlType="XRTableCell" Name="tableCell12" Dpi="254" Weight="0.40948183296556123" TextFormatString="{0:n1}" Multiline="true" Text="tableCell5" TextAlignment="MiddleRight">
+                      <ExpressionBindings>
+                        <Item1 Ref="277" EventName="BeforePrint" PropertyName="Text" Expression="[ImpactPortfolioDaten.txs_risiko__sum_pfandobjekt_flaeche_in_qm]" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="278" UseTextAlignment="false" />
+                    </Item2>
+                  </Cells>
+                </Item3>
+              </Rows>
+              <StylePriority Ref="279" UsePadding="false" />
+            </Item2>
+            <Item3 Ref="280" ControlType="XRTable" Name="EnergiewerteTable" Dpi="254" SizeF="1587.391,355.6" LocationFloat="0,609.6" StyleName="tableGeneralStyle" Padding="5.08,5.08,0,0,254">
+              <Rows>
+                <Item1 Ref="281" ControlType="XRTableRow" Name="tableRow8" Dpi="254" Weight="0.7999999999999999" StyleName="tableHeaderStyle" Font="Arial, 8pt, style=Bold">
+                  <Cells>
+                    <Item1 Ref="282" ControlType="XRTableCell" Name="tableCell13" Dpi="254" Weight="3.000001447247062" Multiline="true" Text="Jährliche Energiewerte" Bookmark="Jährliche Energiewerte" BookmarkParent="#Ref-241" />
+                  </Cells>
+                  <StylePriority Ref="283" UseFont="false" />
+                </Item1>
+                <Item2 Ref="284" ControlType="XRTableRow" Name="tableRow9" Dpi="254" Weight="0.7999999999999999">
+                  <Cells>
+                    <Item1 Ref="285" ControlType="XRTableCell" Name="tableCell14" Dpi="254" Weight="2.5905195155112826" Multiline="true" Text="Verbrauch gesamt (in GWh)" StyleName="tableColHeaderStyle" />
+                    <Item2 Ref="286" ControlType="XRTableCell" Name="tableCell15" Dpi="254" Weight="0.4094819317357795" TextFormatString="{0:n1}" Multiline="true" Text="tableCell2" TextAlignment="MiddleRight">
+                      <ExpressionBindings>
+                        <Item1 Ref="287" EventName="BeforePrint" PropertyName="Text" Expression="[ImpactPortfolioDaten.txs_risiko__sum_energie_verbrauch]" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="288" UseTextAlignment="false" />
+                    </Item2>
+                  </Cells>
+                </Item2>
+                <Item3 Ref="289" ControlType="XRTableRow" Name="tableRow10" Dpi="254" Weight="0.7999999999999999">
+                  <Cells>
+                    <Item1 Ref="290" ControlType="XRTableCell" Name="tableCell16" Dpi="254" Weight="2.5905188906578824" Multiline="true" Text="Benchmark auf Portfolioebene (in GWh)" StyleName="tableColHeaderStyle" />
+                    <Item2 Ref="291" ControlType="XRTableCell" Name="tableCell17" Dpi="254" Weight="0.40948183296556123" TextFormatString="{0:n1}" Multiline="true" Text="tableCell5" TextAlignment="MiddleRight">
+                      <ExpressionBindings>
+                        <Item1 Ref="292" EventName="BeforePrint" PropertyName="Text" Expression="[ImpactPortfolioDaten.txs_risiko__sum_energie_benchmark]" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="293" UseTextAlignment="false" />
+                    </Item2>
+                  </Cells>
+                </Item3>
+                <Item4 Ref="294" ControlType="XRTableRow" Name="tableRow11" Dpi="254" Weight="0.7999999999999999">
+                  <Cells>
+                    <Item1 Ref="295" ControlType="XRTableCell" Name="tableCell18" Dpi="254" Weight="2.5905188906578824" Multiline="true" Text="Einsparung gesamt (in GWh)" StyleName="tableColHeaderStyle" />
+                    <Item2 Ref="296" ControlType="XRTableCell" Name="tableCell19" Dpi="254" Weight="0.40948183296556123" TextFormatString="{0:n1}" Multiline="true" Text="tableCell7" TextAlignment="MiddleRight">
+                      <ExpressionBindings>
+                        <Item1 Ref="297" EventName="BeforePrint" PropertyName="Text" Expression="[ImpactPortfolioDaten.txs_risiko__sum_energie_einsparung]" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="298" UseTextAlignment="false" />
+                    </Item2>
+                  </Cells>
+                </Item4>
+                <Item5 Ref="299" ControlType="XRTableRow" Name="tableRow12" Dpi="254" Weight="0.7999999999999999">
+                  <Cells>
+                    <Item1 Ref="300" ControlType="XRTableCell" Name="tableCell20" Dpi="254" Weight="2.5905188906578824" Multiline="true" Text="Einsparung Institutsanteil (in GWh)" StyleName="tableColHeaderStyle" />
+                    <Item2 Ref="301" ControlType="XRTableCell" Name="tableCell21" Dpi="254" Weight="0.40948183296556123" TextFormatString="{0:n1}" Multiline="true" Text="tableCell21" TextAlignment="MiddleRight">
+                      <ExpressionBindings>
+                        <Item1 Ref="302" EventName="BeforePrint" PropertyName="Text" Expression="[ImpactPortfolioDaten.txs_risiko__sum_energie_einsparung_institutsanteil]" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="303" UseTextAlignment="false" />
+                    </Item2>
+                  </Cells>
+                </Item5>
+                <Item6 Ref="304" ControlType="XRTableRow" Name="tableRow13" Dpi="254" Weight="0.7999999999999999">
+                  <Cells>
+                    <Item1 Ref="305" ControlType="XRTableCell" Name="tableCell22" Dpi="254" Weight="2.5905188906578824" Multiline="true" Text="Einsparung pro 1 Mio € Anleihe (in GWh)" StyleName="tableColHeaderStyle" />
+                    <Item2 Ref="306" ControlType="XRTableCell" Name="tableCell23" Dpi="254" Weight="0.40948183296556123" TextFormatString="{0:n1}" Multiline="true" Text="tableCell23" TextAlignment="MiddleRight">
+                      <ExpressionBindings>
+                        <Item1 Ref="307" EventName="BeforePrint" PropertyName="Text" Expression="[ImpactPortfolioDaten.txs_risiko__sum_energie_einsparung] /&#xA;[ImpactAnleiheDaten.txs_risiko_passiv__sum_nominalkapital_eur] * 1000000" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="308" UseTextAlignment="false" />
+                    </Item2>
+                  </Cells>
+                </Item6>
+                <Item7 Ref="309" ControlType="XRTableRow" Name="tableRow14" Dpi="254" Weight="0.7999999999999999">
+                  <Cells>
+                    <Item1 Ref="310" ControlType="XRTableCell" Name="tableCell24" Dpi="254" Weight="2.5905188906578824" Multiline="true" Text="Einsparung pro 1 Mio € Anleihe Institutsanteil (in GWh)" StyleName="tableColHeaderStyle" />
+                    <Item2 Ref="311" ControlType="XRTableCell" Name="tableCell25" Dpi="254" Weight="0.40948183296556123" TextFormatString="{0:n1}" Multiline="true" Text="tableCell25" TextAlignment="MiddleRight">
+                      <ExpressionBindings>
+                        <Item1 Ref="312" EventName="BeforePrint" PropertyName="Text" Expression="[ImpactPortfolioDaten.txs_risiko__sum_energie_einsparung_institutsanteil] /&#xA;[ImpactAnleiheDaten.txs_risiko_passiv__sum_nominalkapital_eur] * 1000000" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="313" UseTextAlignment="false" />
+                    </Item2>
+                  </Cells>
+                </Item7>
+              </Rows>
+              <StylePriority Ref="314" UsePadding="false" />
+            </Item3>
+            <Item4 Ref="315" ControlType="XRTable" Name="CO2WerteTable" Dpi="254" SizeF="1587.391,355.6" LocationFloat="0,1092.2" StyleName="tableGeneralStyle" Padding="5.08,5.08,0,0,254">
+              <Rows>
+                <Item1 Ref="316" ControlType="XRTableRow" Name="tableRow15" Dpi="254" Weight="0.7999999999999999" StyleName="tableHeaderStyle" Font="Arial, 8pt, style=Bold">
+                  <Cells>
+                    <Item1 Ref="317" ControlType="XRTableCell" Name="tableCell26" Dpi="254" Weight="3.000001447247062" Multiline="true" Text="Jährliche CO2-Werte" Bookmark="Jährliche CO2-Werte" BookmarkParent="#Ref-241" />
+                  </Cells>
+                  <StylePriority Ref="318" UseFont="false" />
+                </Item1>
+                <Item2 Ref="319" ControlType="XRTableRow" Name="tableRow16" Dpi="254" Weight="0.7999999999999999">
+                  <Cells>
+                    <Item1 Ref="320" ControlType="XRTableCell" Name="tableCell27" Dpi="254" Weight="2.5905195155112826" Multiline="true" Text="CO2-Verbrauch gesamt (in t CO2)" StyleName="tableColHeaderStyle" />
+                    <Item2 Ref="321" ControlType="XRTableCell" Name="tableCell28" Dpi="254" Weight="0.4094819317357795" TextFormatString="{0:n1}" Multiline="true" Text="tableCell2" TextAlignment="MiddleRight">
+                      <ExpressionBindings>
+                        <Item1 Ref="322" EventName="BeforePrint" PropertyName="Text" Expression="[ImpactPortfolioDaten.txs_risiko__sum_co2_verbrauch]" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="323" UseTextAlignment="false" />
+                    </Item2>
+                  </Cells>
+                </Item2>
+                <Item3 Ref="324" ControlType="XRTableRow" Name="tableRow17" Dpi="254" Weight="0.7999999999999999">
+                  <Cells>
+                    <Item1 Ref="325" ControlType="XRTableCell" Name="tableCell29" Dpi="254" Weight="2.5905188906578824" Multiline="true" Text="CO2-Benchmark auf Portfolioebene (in t CO2)" StyleName="tableColHeaderStyle" />
+                    <Item2 Ref="326" ControlType="XRTableCell" Name="tableCell30" Dpi="254" Weight="0.40948183296556123" TextFormatString="{0:n1}" Multiline="true" Text="tableCell5" TextAlignment="MiddleRight">
+                      <ExpressionBindings>
+                        <Item1 Ref="327" EventName="BeforePrint" PropertyName="Text" Expression="[ImpactPortfolioDaten.txs_risiko__sum_co2_benchmark]" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="328" UseTextAlignment="false" />
+                    </Item2>
+                  </Cells>
+                </Item3>
+                <Item4 Ref="329" ControlType="XRTableRow" Name="tableRow18" Dpi="254" Weight="0.7999999999999999">
+                  <Cells>
+                    <Item1 Ref="330" ControlType="XRTableCell" Name="tableCell31" Dpi="254" Weight="2.5905188906578824" Multiline="true" Text="CO2 Einsparung gesamt (in t CO2)" StyleName="tableColHeaderStyle" />
+                    <Item2 Ref="331" ControlType="XRTableCell" Name="tableCell32" Dpi="254" Weight="0.40948183296556123" TextFormatString="{0:n1}" Multiline="true" Text="tableCell7" TextAlignment="MiddleRight">
+                      <ExpressionBindings>
+                        <Item1 Ref="332" EventName="BeforePrint" PropertyName="Text" Expression="[ImpactPortfolioDaten.txs_risiko__sum_co2_einsparung]" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="333" UseTextAlignment="false" />
+                    </Item2>
+                  </Cells>
+                </Item4>
+                <Item5 Ref="334" ControlType="XRTableRow" Name="tableRow19" Dpi="254" Weight="0.7999999999999999">
+                  <Cells>
+                    <Item1 Ref="335" ControlType="XRTableCell" Name="tableCell33" Dpi="254" Weight="2.5905188906578824" Multiline="true" Text="CO2 Einsparung Institutsanteil (in t CO2)" StyleName="tableColHeaderStyle" />
+                    <Item2 Ref="336" ControlType="XRTableCell" Name="tableCell34" Dpi="254" Weight="0.40948183296556123" TextFormatString="{0:n1}" Multiline="true" Text="tableCell21" TextAlignment="MiddleRight">
+                      <ExpressionBindings>
+                        <Item1 Ref="337" EventName="BeforePrint" PropertyName="Text" Expression="[ImpactPortfolioDaten.txs_risiko__sum_co2_einsparung_institutsanteil]" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="338" UseTextAlignment="false" />
+                    </Item2>
+                  </Cells>
+                </Item5>
+                <Item6 Ref="339" ControlType="XRTableRow" Name="tableRow20" Dpi="254" Weight="0.7999999999999999">
+                  <Cells>
+                    <Item1 Ref="340" ControlType="XRTableCell" Name="tableCell35" Dpi="254" Weight="2.5905188906578824" Multiline="true" Text="CO2 Einsparung pro 1 Mio € Anleihe (in t CO2)" StyleName="tableColHeaderStyle" />
+                    <Item2 Ref="341" ControlType="XRTableCell" Name="tableCell36" Dpi="254" Weight="0.40948183296556123" TextFormatString="{0:n1}" Multiline="true" Text="tableCell23" TextAlignment="MiddleRight">
+                      <ExpressionBindings>
+                        <Item1 Ref="342" EventName="BeforePrint" PropertyName="Text" Expression="[ImpactPortfolioDaten.txs_risiko__sum_co2_einsparung] /&#xA;[ImpactAnleiheDaten.txs_risiko_passiv__sum_nominalkapital_eur] * 1000000" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="343" UseTextAlignment="false" />
+                    </Item2>
+                  </Cells>
+                </Item6>
+                <Item7 Ref="344" ControlType="XRTableRow" Name="tableRow21" Dpi="254" Weight="0.7999999999999999">
+                  <Cells>
+                    <Item1 Ref="345" ControlType="XRTableCell" Name="tableCell37" Dpi="254" Weight="2.5905188906578824" Multiline="true" Text="CO2 Einsparung pro 1 Mio € Anleihe Institutsanteil (in t CO2)" StyleName="tableColHeaderStyle" />
+                    <Item2 Ref="346" ControlType="XRTableCell" Name="tableCell38" Dpi="254" Weight="0.40948183296556123" TextFormatString="{0:n1}" Multiline="true" Text="tableCell25" TextAlignment="MiddleRight">
+                      <ExpressionBindings>
+                        <Item1 Ref="347" EventName="BeforePrint" PropertyName="Text" Expression="[ImpactPortfolioDaten.txs_risiko__sum_co2_einsparung_institutsanteil] /&#xA;[ImpactAnleiheDaten.txs_risiko_passiv__sum_nominalkapital_eur] * 1000000" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="348" UseTextAlignment="false" />
+                    </Item2>
+                  </Cells>
+                </Item7>
+              </Rows>
+              <StylePriority Ref="349" UsePadding="false" />
+            </Item4>
+          </Controls>
+        </Item2>
+      </Bands>
+    </Item5>
+    <Item6 Ref="350" ControlType="BottomMarginBand" Name="BottomMargin1" Dpi="254" HeightF="254" />
+  </Bands>
+  <StyleSheet>
+    <Item1 Ref="351" Name="crossTabGeneralStyle1" BorderStyle="Inset" Padding="5.08,5.08,0,0,254" Font="Arial, 8pt" ForeColor="Black" BackColor="White" BorderColor="255,160,160,160" Sides="Bottom" StringFormat="Near;Near;0;None;Character;Default" />
+    <Item2 Ref="352" Name="crossTabHeaderStyle1" BorderStyle="Inset" Font="Arial, 8pt" ForeColor="255,11,66,142" BackColor="White" StringFormat="Near;Center;0;None;Character;Default" TextAlignment="MiddleLeft" />
+    <Item3 Ref="353" Name="crossTabDataStyle1" BorderStyle="Inset" Font="Arial, 8pt" StringFormat="Far;Center;0;None;Character;Default" TextAlignment="MiddleRight" />
+    <Item4 Ref="354" Name="crossTabTotalStyle1" BorderStyle="Inset" Font="Arial, 8pt, style=Bold" ForeColor="255,11,66,142" StringFormat="Far;Center;0;None;Character;Default" TextAlignment="MiddleRight" />
+    <Item5 Ref="355" Name="tableHeaderStyle" BorderStyle="Inset" ForeColor="255,11,66,142" BackColor="255,214,220,228" StringFormat="Near;Center;0;None;Character;Default" TextAlignment="MiddleLeft" />
+    <Item6 Ref="356" Name="tableGeneralStyle" BorderStyle="Inset" Padding="5.08,5.08,0,0,254" ForeColor="Black" BackColor="White" BorderColor="255,160,160,160" Sides="Bottom" StringFormat="Near;Center;0;None;Character;Default" TextAlignment="MiddleLeft" />
+    <Item7 Ref="357" Name="tableColHeaderStyle" BorderStyle="Inset" ForeColor="255,11,66,142" StringFormat="Near;Center;0;None;Character;Default" TextAlignment="MiddleLeft" />
+  </StyleSheet>
+  <ParameterPanelLayoutItems>
+    <Item1 Ref="358" LayoutItemType="Parameter" Parameter="#Ref-5" />
+    <Item2 Ref="359" LayoutItemType="Parameter" Parameter="#Ref-8" />
+    <Item3 Ref="360" LayoutItemType="Parameter" Parameter="#Ref-10" />
+    <Item4 Ref="361" LayoutItemType="Parameter" Parameter="#Ref-12" />
+    <Item5 Ref="362" LayoutItemType="Parameter" Parameter="#Ref-14" />
+  </ParameterPanelLayoutItems>
+  <ComponentStorage>
+    <Item1 Ref="0" ObjectType="DevExpress.DataAccess.Json.JsonDataSource,DevExpress.DataAccess.v25.1" Base64="PEpzb25EYXRhU291cmNlPjxTY2hlbWE+PE5vZGUgTmFtZT0icm9vdCIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJPYmplY3QiPjxOb2RlIE5hbWU9IkxhbmQiIFNlbGVjdGVkPSJ0cnVlIiBOb2RlVHlwZT0iQXJyYXkiPjxOb2RlIE5hbWU9InR4c19yaXNpa29fX3N1bV9yZXN0ZGVja3VuZyIgVHlwZT0iU3lzdGVtLk51bGxhYmxlYDFbU3lzdGVtLkRvdWJsZV0iIFNlbGVjdGVkPSJ0cnVlIiBOb2RlVHlwZT0iUHJvcGVydHkiIC8+PE5vZGUgTmFtZT0idHhzX3Jpc2lrb19fcGN0X3Jlc3RkZWNrdW5nX2xhbmQiIFR5cGU9IlN5c3RlbS5OdWxsYWJsZWAxW1N5c3RlbS5Eb3VibGVdIiBTZWxlY3RlZD0idHJ1ZSIgTm9kZVR5cGU9IlByb3BlcnR5IiAvPjxOb2RlIE5hbWU9InR4c19yaXNpa29fX1R4c1JlZ2lvbl9sYW5kX3NvcnRfa2V5IiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBTZWxlY3RlZD0idHJ1ZSIgTm9kZVR5cGU9IlByb3BlcnR5IiAvPjxOb2RlIE5hbWU9InR4c19yaXNpa29fX1R4c1JlZ2lvbl9sYW5kIiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBTZWxlY3RlZD0idHJ1ZSIgTm9kZVR5cGU9IlByb3BlcnR5IiAvPjwvTm9kZT48Tm9kZSBOYW1lPSJOYWNod2Vpc2UiIFNlbGVjdGVkPSJ0cnVlIiBOb2RlVHlwZT0iQXJyYXkiPjxOb2RlIE5hbWU9InR4c19yaXNpa29fX3N1bV9yZXN0ZGVja3VuZyIgVHlwZT0iU3lzdGVtLk51bGxhYmxlYDFbU3lzdGVtLkRvdWJsZV0iIFNlbGVjdGVkPSJ0cnVlIiBOb2RlVHlwZT0iUHJvcGVydHkiIC8+PE5vZGUgTmFtZT0idHhzX3Jpc2lrb19fU3VzTmFjaHdlaXNfcHJvb2ZfdHlwZSIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJQcm9wZXJ0eSIgLz48Tm9kZSBOYW1lPSJ0eHNfcmlzaWtvX19TdXNOYWNod2Vpc19wcm9vZl9zdWJ0eXBlIiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBTZWxlY3RlZD0idHJ1ZSIgTm9kZVR5cGU9IlByb3BlcnR5IiAvPjxOb2RlIE5hbWU9InR4c19yaXNpa29fX1N1c05hY2h3ZWlzX3Byb29mX3R5cGVfc29ydF9rZXkiIFR5cGU9IlN5c3RlbS5TdHJpbmciIFNlbGVjdGVkPSJ0cnVlIiBOb2RlVHlwZT0iUHJvcGVydHkiIC8+PE5vZGUgTmFtZT0idHhzX3Jpc2lrb19fU3VzTmFjaHdlaXNfcHJvb2Zfc3VidHlwZV9zb3J0X2tleSIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJQcm9wZXJ0eSIgLz48L05vZGU+PE5vZGUgTmFtZT0iSW1tb2JpbGllbm51dHp1bmciIFNlbGVjdGVkPSJ0cnVlIiBOb2RlVHlwZT0iQXJyYXkiPjxOb2RlIE5hbWU9InR4c19yaXNpa29fX3N1bV9yZXN0ZGVja3VuZyIgVHlwZT0iU3lzdGVtLk51bGxhYmxlYDFbU3lzdGVtLkRvdWJsZV0iIFNlbGVjdGVkPSJ0cnVlIiBOb2RlVHlwZT0iUHJvcGVydHkiIC8+PE5vZGUgTmFtZT0idHhzX3Jpc2lrb19fU3VzTnV0enVuZ3NlaW5oZWl0X251dHp1bmdza2F0ZWdvcmllIiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBTZWxlY3RlZD0idHJ1ZSIgTm9kZVR5cGU9IlByb3BlcnR5IiAvPjxOb2RlIE5hbWU9InR4c19yaXNpa29fX1N1c051dHp1bmdzZWluaGVpdF9udXR6dW5nc2thdGVnb3JpZV9zb3J0X2tleSIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJQcm9wZXJ0eSIgLz48L05vZGU+PE5vZGUgTmFtZT0iRW50ZmVybnVuZ09FUE5WIiBTZWxlY3RlZD0idHJ1ZSIgTm9kZVR5cGU9IkFycmF5Ij48Tm9kZSBOYW1lPSJ0eHNfcmlzaWtvX19zdW1fcmVzdGRlY2t1bmciIFR5cGU9IlN5c3RlbS5OdWxsYWJsZWAxW1N5c3RlbS5Eb3VibGVdIiBTZWxlY3RlZD0idHJ1ZSIgTm9kZVR5cGU9IlByb3BlcnR5IiAvPjxOb2RlIE5hbWU9InR4c19yaXNpa29fX1N1c1BmYW5kb2JqZWt0X2Rpc3RhbmNlX3RvX3B1YmxpY190cmFuc3BvcnRfZ3JvdXAiIFR5cGU9IlN5c3RlbS5TdHJpbmciIFNlbGVjdGVkPSJ0cnVlIiBOb2RlVHlwZT0iUHJvcGVydHkiIC8+PE5vZGUgTmFtZT0idHhzX3Jpc2lrb19fU3VzUGZhbmRvYmpla3RfZGlzdGFuY2VfdG9fcHVibGljX3RyYW5zcG9ydF9ncm91cF9zb3J0X2tleSIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJQcm9wZXJ0eSIgLz48L05vZGU+PE5vZGUgTmFtZT0iQm9kZW5hcnQiIFNlbGVjdGVkPSJ0cnVlIiBOb2RlVHlwZT0iQXJyYXkiPjxOb2RlIE5hbWU9InR4c19yaXNpa29fX3N1bV9yZXN0ZGVja3VuZyIgVHlwZT0iU3lzdGVtLk51bGxhYmxlYDFbU3lzdGVtLkRvdWJsZV0iIFNlbGVjdGVkPSJ0cnVlIiBOb2RlVHlwZT0iUHJvcGVydHkiIC8+PE5vZGUgTmFtZT0idHhzX3Jpc2lrb19fU3VzUGZhbmRvYmpla3RfYnVpbGRpbmdfZGV2ZWxvcG1lbnQiIFR5cGU9IlN5c3RlbS5TdHJpbmciIFNlbGVjdGVkPSJ0cnVlIiBOb2RlVHlwZT0iUHJvcGVydHkiIC8+PE5vZGUgTmFtZT0idHhzX3Jpc2lrb19fU3VzUGZhbmRvYmpla3RfYnVpbGRpbmdfZGV2ZWxvcG1lbnRfc29ydF9rZXkiIFR5cGU9IlN5c3RlbS5TdHJpbmciIFNlbGVjdGVkPSJ0cnVlIiBOb2RlVHlwZT0iUHJvcGVydHkiIC8+PC9Ob2RlPjxOb2RlIE5hbWU9Ik5hY2hoYWx0aWdrZWl0S3JlZGl0endlY2siIFNlbGVjdGVkPSJ0cnVlIiBOb2RlVHlwZT0iQXJyYXkiPjxOb2RlIE5hbWU9InR4c19yaXNpa29fX3N1bV9yZXN0ZGVja3VuZyIgVHlwZT0iU3lzdGVtLk51bGxhYmxlYDFbU3lzdGVtLkRvdWJsZV0iIFNlbGVjdGVkPSJ0cnVlIiBOb2RlVHlwZT0iUHJvcGVydHkiIC8+PE5vZGUgTmFtZT0idHhzX3Jpc2lrb19fVHhzR2VzY2hhZWZ0c2thdGVnb3JpZV9uYWNoaGFsdGlna2VpdGFydCIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJQcm9wZXJ0eSIgLz48Tm9kZSBOYW1lPSJ0eHNfcmlzaWtvX19UeHNHZXNjaGFlZnRza2F0ZWdvcmllX25hY2hoYWx0aWdrZWl0YXJ0X3NvcnRfa2V5IiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBTZWxlY3RlZD0idHJ1ZSIgTm9kZVR5cGU9IlByb3BlcnR5IiAvPjwvTm9kZT48Tm9kZSBOYW1lPSJHcm9lc3NlbmtsYXNzZW4iIFNlbGVjdGVkPSJ0cnVlIiBOb2RlVHlwZT0iQXJyYXkiPjxOb2RlIE5hbWU9InR4c19yaXNpa29fX0dyb2Vzc2Vua2xhc3Nlbl9zdW1fcmVzdGRlY2t1bmciIFR5cGU9IlN5c3RlbS5OdWxsYWJsZWAxW1N5c3RlbS5Eb3VibGVdIiBTZWxlY3RlZD0idHJ1ZSIgTm9kZVR5cGU9IlByb3BlcnR5IiAvPjxOb2RlIE5hbWU9InR4c19yaXNpa29fX1R4c0dyb2Vzc2Vua2xhc3Nlbl9iYW5kX3JhbmdlX25hbWUiIFR5cGU9IlN5c3RlbS5TdHJpbmciIFNlbGVjdGVkPSJ0cnVlIiBOb2RlVHlwZT0iUHJvcGVydHkiIC8+PE5vZGUgTmFtZT0idHhzX3Jpc2lrb19fVHhzR3JvZXNzZW5rbGFzc2VuX2JhbmRfZ3JvdXBfc29ydF9vcmRlciIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJQcm9wZXJ0eSIgLz48L05vZGU+PE5vZGUgTmFtZT0iUmVzdGxhdWZ6ZWl0IiBTZWxlY3RlZD0idHJ1ZSIgTm9kZVR5cGU9IkFycmF5Ij48Tm9kZSBOYW1lPSJ0eHNfY2FzaGZsb3dfX2Fic19zdW1fdGlsZ3VuZ19ub21pbmFsIiBUeXBlPSJTeXN0ZW0uTnVsbGFibGVgMVtTeXN0ZW0uRG91YmxlXSIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJQcm9wZXJ0eSIgLz48Tm9kZSBOYW1lPSJ0eHNfY2FzaGZsb3dfX2Jvb2tpbmdfYnVja2V0X3Jlc3RsYXVmemVpdF9idWNrZXRfa2V5IiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBTZWxlY3RlZD0idHJ1ZSIgTm9kZVR5cGU9IlByb3BlcnR5IiAvPjxOb2RlIE5hbWU9InR4c19jYXNoZmxvd19fYm9va2luZ19idWNrZXRfcmVzdGxhdWZ6ZWl0X2J1Y2tldCIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJQcm9wZXJ0eSIgLz48L05vZGU+PE5vZGUgTmFtZT0iR2V3aWNodGV0ZVJlc3RsYXVmemVpdCIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJBcnJheSI+PE5vZGUgTmFtZT0idHhzX2Nhc2hmbG93X19hYnNfc3VtX3RpbGd1bmdfbm9taW5hbCIgVHlwZT0iU3lzdGVtLk51bGxhYmxlYDFbU3lzdGVtLkRvdWJsZV0iIFNlbGVjdGVkPSJ0cnVlIiBOb2RlVHlwZT0iUHJvcGVydHkiIC8+PE5vZGUgTmFtZT0idHhzX2Nhc2hmbG93X19nZXdpY2h0ZXRlX3Jlc3RsYXVmemVpdCIgVHlwZT0iU3lzdGVtLk51bGxhYmxlYDFbU3lzdGVtLkRvdWJsZV0iIFNlbGVjdGVkPSJ0cnVlIiBOb2RlVHlwZT0iUHJvcGVydHkiIC8+PE5vZGUgTmFtZT0idHhzX2Nhc2hmbG93X190eHNfY2FzaGZsb3dfcG9vbF9ha3Rpdl9wYXNzaXYiIFR5cGU9IlN5c3RlbS5TdHJpbmciIFNlbGVjdGVkPSJ0cnVlIiBOb2RlVHlwZT0iUHJvcGVydHkiIC8+PC9Ob2RlPjxOb2RlIE5hbWU9IkltcGFjdEFubGVpaGVEYXRlbiIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJBcnJheSI+PE5vZGUgTmFtZT0idHhzX3Jpc2lrb19wYXNzaXZfX3N1bV9yZXN0a2FwaXRhbCIgVHlwZT0iU3lzdGVtLk51bGxhYmxlYDFbU3lzdGVtLkRvdWJsZV0iIFNlbGVjdGVkPSJ0cnVlIiBOb2RlVHlwZT0iUHJvcGVydHkiIC8+PE5vZGUgTmFtZT0idHhzX3Jpc2lrb19wYXNzaXZfX3N1bV9ub21pbmFsa2FwaXRhbF9ldXIiIFR5cGU9IlN5c3RlbS5OdWxsYWJsZWAxW1N5c3RlbS5Eb3VibGVdIiBTZWxlY3RlZD0idHJ1ZSIgTm9kZVR5cGU9IlByb3BlcnR5IiAvPjwvTm9kZT48Tm9kZSBOYW1lPSJJbXBhY3RQb3J0Zm9saW9EYXRlbiIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJBcnJheSI+PE5vZGUgTmFtZT0idHhzX3Jpc2lrb19fc3VtX3Jlc3RkZWNrdW5nIiBUeXBlPSJTeXN0ZW0uTnVsbGFibGVgMVtTeXN0ZW0uRG91YmxlXSIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJQcm9wZXJ0eSIgLz48Tm9kZSBOYW1lPSJ0eHNfcmlzaWtvX19zdW1fZ2V3aWNodGV0ZXJfaW5zdGl0dXRzYW50ZWlsIiBUeXBlPSJTeXN0ZW0uTnVsbGFibGVgMVtTeXN0ZW0uRG91YmxlXSIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJQcm9wZXJ0eSIgLz48Tm9kZSBOYW1lPSJ0eHNfcmlzaWtvX19hbnpfcGZhbmRvYmpla3RlIiBUeXBlPSJTeXN0ZW0uTnVsbGFibGVgMVtTeXN0ZW0uRG91YmxlXSIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJQcm9wZXJ0eSIgLz48Tm9kZSBOYW1lPSJ0eHNfcmlzaWtvX19zdW1fcGZhbmRvYmpla3RfZmxhZWNoZV9pbl9xbSIgVHlwZT0iU3lzdGVtLk51bGxhYmxlYDFbU3lzdGVtLkRvdWJsZV0iIFNlbGVjdGVkPSJ0cnVlIiBOb2RlVHlwZT0iUHJvcGVydHkiIC8+PE5vZGUgTmFtZT0idHhzX3Jpc2lrb19fc3VtX2VuZXJnaWVfdmVyYnJhdWNoIiBUeXBlPSJTeXN0ZW0uTnVsbGFibGVgMVtTeXN0ZW0uRG91YmxlXSIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJQcm9wZXJ0eSIgLz48Tm9kZSBOYW1lPSJ0eHNfcmlzaWtvX19zdW1fZW5lcmdpZV9iZW5jaG1hcmsiIFR5cGU9IlN5c3RlbS5OdWxsYWJsZWAxW1N5c3RlbS5Eb3VibGVdIiBTZWxlY3RlZD0idHJ1ZSIgTm9kZVR5cGU9IlByb3BlcnR5IiAvPjxOb2RlIE5hbWU9InR4c19yaXNpa29fX3N1bV9lbmVyZ2llX2VpbnNwYXJ1bmciIFR5cGU9IlN5c3RlbS5OdWxsYWJsZWAxW1N5c3RlbS5Eb3VibGVdIiBTZWxlY3RlZD0idHJ1ZSIgTm9kZVR5cGU9IlByb3BlcnR5IiAvPjxOb2RlIE5hbWU9InR4c19yaXNpa29fX3N1bV9lbmVyZ2llX2VpbnNwYXJ1bmdfaW5zdGl0dXRzYW50ZWlsIiBUeXBlPSJTeXN0ZW0uTnVsbGFibGVgMVtTeXN0ZW0uRG91YmxlXSIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJQcm9wZXJ0eSIgLz48Tm9kZSBOYW1lPSJ0eHNfcmlzaWtvX19zdW1fY28yX3ZlcmJyYXVjaCIgVHlwZT0iU3lzdGVtLk51bGxhYmxlYDFbU3lzdGVtLkRvdWJsZV0iIFNlbGVjdGVkPSJ0cnVlIiBOb2RlVHlwZT0iUHJvcGVydHkiIC8+PE5vZGUgTmFtZT0idHhzX3Jpc2lrb19fc3VtX2NvMl9iZW5jaG1hcmsiIFR5cGU9IlN5c3RlbS5OdWxsYWJsZWAxW1N5c3RlbS5Eb3VibGVdIiBTZWxlY3RlZD0idHJ1ZSIgTm9kZVR5cGU9IlByb3BlcnR5IiAvPjxOb2RlIE5hbWU9InR4c19yaXNpa29fX3N1bV9jbzJfZWluc3BhcnVuZyIgVHlwZT0iU3lzdGVtLk51bGxhYmxlYDFbU3lzdGVtLkRvdWJsZV0iIFNlbGVjdGVkPSJ0cnVlIiBOb2RlVHlwZT0iUHJvcGVydHkiIC8+PE5vZGUgTmFtZT0idHhzX3Jpc2lrb19fc3VtX2NvMl9laW5zcGFydW5nX2luc3RpdHV0c2FudGVpbCIgVHlwZT0iU3lzdGVtLk51bGxhYmxlYDFbU3lzdGVtLkRvdWJsZV0iIFNlbGVjdGVkPSJ0cnVlIiBOb2RlVHlwZT0iUHJvcGVydHkiIC8+PC9Ob2RlPjxOb2RlIE5hbWU9IlBmYW5kb2JqZWt0RGF0ZW4iIFNlbGVjdGVkPSJ0cnVlIiBOb2RlVHlwZT0iQXJyYXkiPjxOb2RlIE5hbWU9InR4c19yaXNpa29fX2Fuel9wZmFuZG9iamVrdGUiIFR5cGU9IlN5c3RlbS5OdWxsYWJsZWAxW1N5c3RlbS5Eb3VibGVdIiBTZWxlY3RlZD0idHJ1ZSIgTm9kZVR5cGU9IlByb3BlcnR5IiAvPjxOb2RlIE5hbWU9InR4c19yaXNpa29fX3N1bV9wZmFuZG9iamVrdF9mbGFlY2hlX2luX3FtIiBUeXBlPSJTeXN0ZW0uTnVsbGFibGVgMVtTeXN0ZW0uRG91YmxlXSIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJQcm9wZXJ0eSIgLz48L05vZGU+PE5vZGUgTmFtZT0iSsOkaHJsaWNoZUVuZXJnaWV3ZXJ0ZSIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJBcnJheSI+PE5vZGUgTmFtZT0idHhzX3Jpc2lrb19fc3VtX2VuZXJnaWVfdmVyYnJhdWNoIiBUeXBlPSJTeXN0ZW0uTnVsbGFibGVgMVtTeXN0ZW0uRG91YmxlXSIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJQcm9wZXJ0eSIgLz48Tm9kZSBOYW1lPSJ0eHNfcmlzaWtvX19zdW1fZW5lcmdpZV9iZW5jaG1hcmsiIFR5cGU9IlN5c3RlbS5OdWxsYWJsZWAxW1N5c3RlbS5Eb3VibGVdIiBTZWxlY3RlZD0idHJ1ZSIgTm9kZVR5cGU9IlByb3BlcnR5IiAvPjxOb2RlIE5hbWU9InR4c19yaXNpa29fX3N1bV9lbmVyZ2llX2VpbnNwYXJ1bmciIFR5cGU9IlN5c3RlbS5OdWxsYWJsZWAxW1N5c3RlbS5Eb3VibGVdIiBTZWxlY3RlZD0idHJ1ZSIgTm9kZVR5cGU9IlByb3BlcnR5IiAvPjxOb2RlIE5hbWU9InR4c19yaXNpa29fX3N1bV9lbmVyZ2llX2VpbnNwYXJ1bmdfaW5zdGl0dXRzYW50ZWlsIiBUeXBlPSJTeXN0ZW0uTnVsbGFibGVgMVtTeXN0ZW0uRG91YmxlXSIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJQcm9wZXJ0eSIgLz48L05vZGU+PE5vZGUgTmFtZT0iSsOkaHJsaWNoZUNPMldlcnRlIiBTZWxlY3RlZD0idHJ1ZSIgTm9kZVR5cGU9IkFycmF5Ij48Tm9kZSBOYW1lPSJ0eHNfcmlzaWtvX19zdW1fY28yX3ZlcmJyYXVjaCIgVHlwZT0iU3lzdGVtLk51bGxhYmxlYDFbU3lzdGVtLkRvdWJsZV0iIFNlbGVjdGVkPSJ0cnVlIiBOb2RlVHlwZT0iUHJvcGVydHkiIC8+PE5vZGUgTmFtZT0idHhzX3Jpc2lrb19fc3VtX2NvMl9iZW5jaG1hcmsiIFR5cGU9IlN5c3RlbS5OdWxsYWJsZWAxW1N5c3RlbS5Eb3VibGVdIiBTZWxlY3RlZD0idHJ1ZSIgTm9kZVR5cGU9IlByb3BlcnR5IiAvPjxOb2RlIE5hbWU9InR4c19yaXNpa29fX3N1bV9jbzJfZWluc3BhcnVuZyIgVHlwZT0iU3lzdGVtLk51bGxhYmxlYDFbU3lzdGVtLkRvdWJsZV0iIFNlbGVjdGVkPSJ0cnVlIiBOb2RlVHlwZT0iUHJvcGVydHkiIC8+PE5vZGUgTmFtZT0idHhzX3Jpc2lrb19fc3VtX2NvMl9laW5zcGFydW5nX2luc3RpdHV0c2FudGVpbCIgVHlwZT0iU3lzdGVtLk51bGxhYmxlYDFbU3lzdGVtLkRvdWJsZV0iIFNlbGVjdGVkPSJ0cnVlIiBOb2RlVHlwZT0iUHJvcGVydHkiIC8+PC9Ob2RlPjxOb2RlIE5hbWU9IlN0aWNodGFnUGFyYW1ldGVyIiBTZWxlY3RlZD0idHJ1ZSIgTm9kZVR5cGU9IkFycmF5Ij48Tm9kZSBOYW1lPSJ0eHNfcmlzaWtvX19TdGljaHRhZ19zdGljaHRhZyIgVHlwZT0iU3lzdGVtLkRhdGVUaW1lIiBTZWxlY3RlZD0idHJ1ZSIgTm9kZVR5cGU9IlByb3BlcnR5IiAvPjxOb2RlIE5hbWU9InR4c19yaXNpa29fX1N0aWNodGFnX3N0aWNodGFnX19kYXkiIFR5cGU9IlN5c3RlbS5EYXRlVGltZSIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJQcm9wZXJ0eSIgLz48L05vZGU+PE5vZGUgTmFtZT0iRnJhbWV3b3JrVmVyc2lvblBhcmFtZXRlciIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJBcnJheSI+PE5vZGUgTmFtZT0idHhzX3Jpc2lrb19fU3VzRnJhbWV3b3JrX2ZyYW1ld29ya192ZXJzaW9uX2Rpc3BsYXlfbmFtZSIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJQcm9wZXJ0eSIgLz48Tm9kZSBOYW1lPSJ0eHNfcmlzaWtvX19TdXNGcmFtZXdvcmtfZnJhbWV3b3JrX2Rpc3BsYXlfbmFtZSIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJQcm9wZXJ0eSIgLz48L05vZGU+PE5vZGUgTmFtZT0iS29uZmlndXJhdGlvbkJlemVpY2hudW5nUGFyYW1ldGVyIiBTZWxlY3RlZD0idHJ1ZSIgTm9kZVR5cGU9IkFycmF5Ij48Tm9kZSBOYW1lPSJ0eHNfY2FzaGZsb3dfX3R4c19zemVuYXJpb19rb25maWd1cmF0aW9uX2tvbmZpZ3VyYXRpb25fYmV6ZWljaG51bmciIFR5cGU9IlN5c3RlbS5TdHJpbmciIFNlbGVjdGVkPSJ0cnVlIiBOb2RlVHlwZT0iUHJvcGVydHkiIC8+PC9Ob2RlPjxOb2RlIE5hbWU9IkJlcmVjaG51bmdzbGF1ZlBhcmFtZXRlciIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJBcnJheSI+PE5vZGUgTmFtZT0idHhzX2Nhc2hmbG93X190eHNfY2FzaGZsb3dfYmVyZWNobnVuZ3NsYXVmX3R4c19jYXNoZmxvd19iZXJlY2hudW5nc2xhdWZfa2V5IiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBTZWxlY3RlZD0idHJ1ZSIgTm9kZVR5cGU9IlByb3BlcnR5IiAvPjxOb2RlIE5hbWU9InR4c19jYXNoZmxvd19fdHhzX2Nhc2hmbG93X2JlcmVjaG51bmdzbGF1Zl9iZXJlY2hudW5nc3N0aWNodGFnIiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBTZWxlY3RlZD0idHJ1ZSIgTm9kZVR5cGU9IlByb3BlcnR5IiAvPjxOb2RlIE5hbWU9InR4c19jYXNoZmxvd19fdHhzX2Nhc2hmbG93X2JlcmVjaG51bmdzbGF1Zl9lcnN0ZWxsdW5nc19kYXR1bSIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJQcm9wZXJ0eSIgLz48Tm9kZSBOYW1lPSJ0eHNfY2FzaGZsb3dfX3R4c19jYXNoZmxvd19iZXJlY2hudW5nc2xhdWZfa29uZmlndXJhdGlvbl9iZXplaWNobnVuZyIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJQcm9wZXJ0eSIgLz48Tm9kZSBOYW1lPSJ0eHNfY2FzaGZsb3dfX3R4c19jYXNoZmxvd19iZXJlY2hudW5nc2xhdWZfYmVyZWNobnVuZ3NsYXVmIiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBTZWxlY3RlZD0idHJ1ZSIgTm9kZVR5cGU9IlByb3BlcnR5IiAvPjwvTm9kZT48Tm9kZSBOYW1lPSJQb3J0Zm9saW9BdXNzY2hsdXNzUGFyYW1ldGVyIiBTZWxlY3RlZD0idHJ1ZSIgTm9kZVR5cGU9IkFycmF5Ij48Tm9kZSBOYW1lPSJ0eHNfcmlzaWtvX19UeHNHZXNjaGFlZnRza2F0ZWdvcmllX25hY2hoYWx0X2F1c3NjaGx1c3MiIFR5cGU9IlN5c3RlbS5TdHJpbmciIFNlbGVjdGVkPSJ0cnVlIiBOb2RlVHlwZT0iUHJvcGVydHkiIC8+PE5vZGUgTmFtZT0idHhzX3Jpc2lrb19fVHhzR2VzY2hhZWZ0c2thdGVnb3JpZV9uYWNoaGFsdF9hdXNzY2hsdXNzX2tleSIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJQcm9wZXJ0eSIgLz48Tm9kZSBOYW1lPSJ0eHNfcmlzaWtvX19UeHNHZXNjaGFlZnRza2F0ZWdvcmllX25hY2hoYWx0X2F1c3NjaGx1c3Nfc29ydF9rZXkiIFR5cGU9IlN5c3RlbS5TdHJpbmciIFNlbGVjdGVkPSJ0cnVlIiBOb2RlVHlwZT0iUHJvcGVydHkiIC8+PC9Ob2RlPjwvTm9kZT48L1NjaGVtYT48L0pzb25EYXRhU291cmNlPg==" />
+  </ComponentStorage>
+  <ObjectStorage>
+    <Item1 Ref="3" ObjectType="DevExpress.XtraReports.Parameters.DynamicListLookUpSettings, DevExpress.Printing.v25.1.Core" DataSource="#Ref-0" DataMember="StichtagParameter" ValueMember="txs_risiko__Stichtag_stichtag" DisplayMember="txs_risiko__Stichtag_stichtag" SortOrder="Descending" />
+    <Item2 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v25.1" Ref="4" Content="System.DateTime" Type="System.Type" />
+    <Item3 Ref="6" ObjectType="DevExpress.XtraReports.Parameters.DynamicListLookUpSettings, DevExpress.Printing.v25.1.Core" DataSource="#Ref-0" DataMember="FrameworkVersionParameter" ValueMember="txs_risiko__SusFramework_framework_version_display_name" DisplayMember="txs_risiko__SusFramework_framework_version_display_name" SortOrder="Descending" />
+    <Item4 Ref="9" ObjectType="DevExpress.XtraReports.Parameters.DynamicListLookUpSettings, DevExpress.Printing.v25.1.Core" DataSource="#Ref-0" DataMember="KonfigurationBezeichnungParameter" ValueMember="txs_cashflow__txs_szenario_konfiguration_konfiguration_bezeichnung" DisplayMember="txs_cashflow__txs_szenario_konfiguration_konfiguration_bezeichnung" />
+    <Item5 Ref="11" ObjectType="DevExpress.XtraReports.Parameters.DynamicListLookUpSettings, DevExpress.Printing.v25.1.Core" DataSource="#Ref-0" DataMember="BerechnungslaufParameter" ValueMember="txs_cashflow__txs_cashflow_berechnungslauf_txs_cashflow_berechnungslauf_key" DisplayMember="txs_cashflow__txs_cashflow_berechnungslauf_berechnungslauf" FilterString="[txs_cashflow__txs_cashflow_berechnungslauf_konfiguration_bezeichnung] In(?KonfigurationBezeichnung)" />
+    <Item6 Ref="13" ObjectType="DevExpress.XtraReports.Parameters.DynamicListLookUpSettings, DevExpress.Printing.v25.1.Core" DataSource="#Ref-0" DataMember="PortfolioAusschlussParameter" ValueMember="txs_risiko__TxsGeschaeftskategorie_nachhalt_ausschluss_key" DisplayMember="txs_risiko__TxsGeschaeftskategorie_nachhalt_ausschluss" SortMember="txs_risiko__TxsGeschaeftskategorie_nachhalt_ausschluss_sort_key" />
+  </ObjectStorage>
+</XtraReportsLayoutSerializer>

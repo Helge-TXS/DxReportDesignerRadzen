@@ -1,5 +1,8 @@
 using Radzen;
+using DevExpress.Blazor.Reporting;
+using DevExpress.XtraReports.Web.Extensions;
 using RadzenStart.Components;
+using RadzenStart.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,8 +10,15 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
+// Add MVC Controllers (required for DevExpress Reporting)
+builder.Services.AddControllers();
+
 // Add Radzen services
 builder.Services.AddRadzenComponents();
+
+// Add DevExpress Reporting services
+builder.Services.AddDevExpressBlazorReporting();
+builder.Services.AddScoped<ReportStorageWebExtension, ReportStorageService>();
 
 var app = builder.Build();
 
@@ -23,8 +33,10 @@ app.UseStatusCodePagesWithReExecute("/not-found", createScopeForStatusCodePages:
 app.UseHttpsRedirection();
 
 app.UseAntiforgery();
+app.UseDevExpressBlazorReporting();
 
 app.MapStaticAssets();
+app.MapControllers();
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();
 

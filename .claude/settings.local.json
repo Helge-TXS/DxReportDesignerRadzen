@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(dotnet:*)"
+      "Bash(dotnet:*)",
+      "WebSearch",
+      "WebFetch(domain:docs.devexpress.com)"
     ]
   }
 }

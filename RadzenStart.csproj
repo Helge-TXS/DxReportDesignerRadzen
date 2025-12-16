@@ -8,6 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="DevExpress.AspNetCore.Reporting" Version="25.1.7" />
+    <PackageReference Include="DevExpress.Blazor.Reporting.JSBasedControls" Version="25.1.7" />
     <PackageReference Include="Radzen.Blazor" Version="8.4.0" />
   </ItemGroup>
 
