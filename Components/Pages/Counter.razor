@@ -1,0 +1,23 @@
+@page "/counter"
+@rendermode InteractiveServer
+
+<PageTitle>Counter</PageTitle>
+
+<RadzenCard>
+    <RadzenText TextStyle="TextStyle.H3" TagName="TagName.H1">Counter</RadzenText>
+
+    <RadzenText TextStyle="TextStyle.H4" Style="margin: 1rem 0;">
+        Current count: @currentCount
+    </RadzenText>
+
+    <RadzenButton Text="Click me" Icon="add" Click="@IncrementCount" ButtonStyle="ButtonStyle.Primary" />
+</RadzenCard>
+
+@code {
+    private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+}

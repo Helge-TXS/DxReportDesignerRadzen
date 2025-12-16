@@ -1,0 +1,52 @@
+@page "/weather"
+@attribute [StreamRendering]
+
+<PageTitle>Weather</PageTitle>
+
+<RadzenCard>
+    <RadzenText TextStyle="TextStyle.H3" TagName="TagName.H1">Weather</RadzenText>
+    <RadzenText TextStyle="TextStyle.Body1" Style="margin-bottom: 1rem;">This component demonstrates showing data.</RadzenText>
+
+    @if (forecasts == null)
+    {
+        <RadzenProgressBarCircular ShowValue="false" Mode="ProgressBarMode.Indeterminate" Size="ProgressBarCircularSize.Medium" />
+    }
+    else
+    {
+        <RadzenDataGrid Data="@forecasts" TItem="WeatherForecast" AllowSorting="true" AllowFiltering="true" AllowPaging="true" PageSize="5">
+            <Columns>
+                <RadzenDataGridColumn TItem="WeatherForecast" Property="Date" Title="Date" FormatString="{0:d}" />
+                <RadzenDataGridColumn TItem="WeatherForecast" Property="TemperatureC" Title="Temp. (C)" />
+                <RadzenDataGridColumn TItem="WeatherForecast" Property="TemperatureF" Title="Temp. (F)" />
+                <RadzenDataGridColumn TItem="WeatherForecast" Property="Summary" Title="Summary" />
+            </Columns>
+        </RadzenDataGrid>
+    }
+</RadzenCard>
+
+@code {
+    private WeatherForecast[]? forecasts;
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Simulate asynchronous loading to demonstrate streaming rendering
+        await Task.Delay(500);
+
+        var startDate = DateOnly.FromDateTime(DateTime.Now);
+        var summaries = new[] { "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching" };
+        forecasts = Enumerable.Range(1, 5).Select(index => new WeatherForecast
+        {
+            Date = startDate.AddDays(index),
+            TemperatureC = Random.Shared.Next(-20, 55),
+            Summary = summaries[Random.Shared.Next(summaries.Length)]
+        }).ToArray();
+    }
+
+    private class WeatherForecast
+    {
+        public DateOnly Date { get; set; }
+        public int TemperatureC { get; set; }
+        public string? Summary { get; set; }
+        public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+    }
+}
