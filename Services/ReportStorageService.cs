@@ -1,7 +1,7 @@
-using DevExpress.XtraReports.Web.Extensions;
 using DevExpress.XtraReports.UI;
+using DevExpress.XtraReports.Web.Extensions;
 
-namespace RadzenStart.Services;
+namespace DxReportDesignerRadzen.Services;
 
 public class ReportStorageService : ReportStorageWebExtension
 {

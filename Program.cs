@@ -1,8 +1,8 @@
 using Radzen;
 using DevExpress.Blazor.Reporting;
 using DevExpress.XtraReports.Web.Extensions;
-using RadzenStart.Components;
-using RadzenStart.Services;
+using DxReportDesignerRadzen.Components;
+using DxReportDesignerRadzen.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
